@@ -1,1236 +1,0 @@
-0 info it worked if it ends with ok
-1 verbose cli [ 'node',
-1 verbose cli   '/usr/local/bin/npm',
-1 verbose cli   'install',
-1 verbose cli   '--save-dev',
-1 verbose cli   'grunt-minify-html' ]
-2 info using npm@1.3.11
-3 info using node@v0.10.21
-4 verbose cache add [ 'grunt-minify-html', null ]
-5 verbose cache add name=undefined spec="grunt-minify-html" args=["grunt-minify-html",null]
-6 verbose parsed url { protocol: null,
-6 verbose parsed url   slashes: null,
-6 verbose parsed url   auth: null,
-6 verbose parsed url   host: null,
-6 verbose parsed url   port: null,
-6 verbose parsed url   hostname: null,
-6 verbose parsed url   hash: null,
-6 verbose parsed url   search: null,
-6 verbose parsed url   query: null,
-6 verbose parsed url   pathname: 'grunt-minify-html',
-6 verbose parsed url   path: 'grunt-minify-html',
-6 verbose parsed url   href: 'grunt-minify-html' }
-7 silly lockFile 8fbdda0d-grunt-minify-html grunt-minify-html
-8 verbose lock grunt-minify-html /Users/jimmy/.npm/8fbdda0d-grunt-minify-html.lock
-9 silly lockFile 8fbdda0d-grunt-minify-html grunt-minify-html
-10 silly lockFile 8fbdda0d-grunt-minify-html grunt-minify-html
-11 verbose addNamed [ 'grunt-minify-html', '' ]
-12 verbose addNamed [ null, '*' ]
-13 silly lockFile 54058446-grunt-minify-html grunt-minify-html@
-14 verbose lock grunt-minify-html@ /Users/jimmy/.npm/54058446-grunt-minify-html.lock
-15 silly addNameRange { name: 'grunt-minify-html', range: '*', hasData: false }
-16 verbose url raw grunt-minify-html
-17 verbose url resolving [ 'https://registry.npmjs.org/', './grunt-minify-html' ]
-18 verbose url resolved https://registry.npmjs.org/grunt-minify-html
-19 info trying registry request attempt 1 at 23:14:29
-20 http GET https://registry.npmjs.org/grunt-minify-html
-21 http 200 https://registry.npmjs.org/grunt-minify-html
-22 silly registry.get cb [ 200,
-22 silly registry.get   { server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
-22 silly registry.get     etag: '"5GYLJK7V85YYOW60V3SQ1KNIH"',
-22 silly registry.get     'content-type': 'application/json',
-22 silly registry.get     'cache-control': 'max-age=300',
-22 silly registry.get     'content-length': '8494',
-22 silly registry.get     'accept-ranges': 'bytes',
-22 silly registry.get     date: 'Tue, 05 Apr 2016 22:14:28 GMT',
-22 silly registry.get     via: '1.1 varnish',
-22 silly registry.get     age: '0',
-22 silly registry.get     connection: 'keep-alive',
-22 silly registry.get     'x-served-by': 'cache-ams4122-AMS',
-22 silly registry.get     'x-cache': 'MISS',
-22 silly registry.get     'x-cache-hits': '0',
-22 silly registry.get     'x-timer': 'S1459894467.619646,VS0,VE734',
-22 silly registry.get     vary: 'Accept-Encoding' } ]
-23 silly addNameRange number 2 { name: 'grunt-minify-html', range: '*', hasData: true }
-24 silly addNameRange versions [ 'grunt-minify-html',
-24 silly addNameRange   [ '0.1.0', '1.0.0', '1.1.0', '1.1.1', '2.0.0' ] ]
-25 verbose addNamed [ 'grunt-minify-html', '2.0.0' ]
-26 verbose addNamed [ '2.0.0', '2.0.0' ]
-27 silly lockFile 7c1049fb-grunt-minify-html-2-0-0 grunt-minify-html@2.0.0
-28 verbose lock grunt-minify-html@2.0.0 /Users/jimmy/.npm/7c1049fb-grunt-minify-html-2-0-0.lock
-29 silly lockFile 2e4de092-html-grunt-minify-html-2-0-0-tgz https://registry.npmjs.org/grunt-minify-html/-/grunt-minify-html-2.0.0.tgz
-30 verbose lock https://registry.npmjs.org/grunt-minify-html/-/grunt-minify-html-2.0.0.tgz /Users/jimmy/.npm/2e4de092-html-grunt-minify-html-2-0-0-tgz.lock
-31 verbose addRemoteTarball [ 'https://registry.npmjs.org/grunt-minify-html/-/grunt-minify-html-2.0.0.tgz',
-31 verbose addRemoteTarball   '0218ab80a500b0b97592ac251eb78d976577f026' ]
-32 info retry fetch attempt 1 at 23:14:31
-33 verbose fetch to= /var/folders/cr/cql7gsh9541f__j63w2c9t5c0000gn/T/npm-2255-9Rx2pPdz/1459894471378-0.9461427330970764/tmp.tgz
-34 http GET https://registry.npmjs.org/grunt-minify-html/-/grunt-minify-html-2.0.0.tgz
-35 http 200 https://registry.npmjs.org/grunt-minify-html/-/grunt-minify-html-2.0.0.tgz
-36 verbose tar unpack /var/folders/cr/cql7gsh9541f__j63w2c9t5c0000gn/T/npm-2255-9Rx2pPdz/1459894471378-0.9461427330970764/tmp.tgz
-37 silly lockFile f9d2ba91-71378-0-9461427330970764-package tar:///var/folders/cr/cql7gsh9541f__j63w2c9t5c0000gn/T/npm-2255-9Rx2pPdz/1459894471378-0.9461427330970764/package
-38 verbose lock tar:///var/folders/cr/cql7gsh9541f__j63w2c9t5c0000gn/T/npm-2255-9Rx2pPdz/1459894471378-0.9461427330970764/package /Users/jimmy/.npm/f9d2ba91-71378-0-9461427330970764-package.lock
-39 silly lockFile 05cd14c8-71378-0-9461427330970764-tmp-tgz tar:///var/folders/cr/cql7gsh9541f__j63w2c9t5c0000gn/T/npm-2255-9Rx2pPdz/1459894471378-0.9461427330970764/tmp.tgz
-40 verbose lock tar:///var/folders/cr/cql7gsh9541f__j63w2c9t5c0000gn/T/npm-2255-9Rx2pPdz/1459894471378-0.9461427330970764/tmp.tgz /Users/jimmy/.npm/05cd14c8-71378-0-9461427330970764-tmp-tgz.lock
-41 silly gunzTarPerm modes [ '755', '644' ]
-42 silly gunzTarPerm extractEntry package.json
-43 silly gunzTarPerm extractEntry tasks/minify-html.js
-44 silly gunzTarPerm extractEntry readme.md
-45 silly lockFile f9d2ba91-71378-0-9461427330970764-package tar:///var/folders/cr/cql7gsh9541f__j63w2c9t5c0000gn/T/npm-2255-9Rx2pPdz/1459894471378-0.9461427330970764/package
-46 silly lockFile f9d2ba91-71378-0-9461427330970764-package tar:///var/folders/cr/cql7gsh9541f__j63w2c9t5c0000gn/T/npm-2255-9Rx2pPdz/1459894471378-0.9461427330970764/package
-47 silly lockFile 05cd14c8-71378-0-9461427330970764-tmp-tgz tar:///var/folders/cr/cql7gsh9541f__j63w2c9t5c0000gn/T/npm-2255-9Rx2pPdz/1459894471378-0.9461427330970764/tmp.tgz
-48 silly lockFile 05cd14c8-71378-0-9461427330970764-tmp-tgz tar:///var/folders/cr/cql7gsh9541f__j63w2c9t5c0000gn/T/npm-2255-9Rx2pPdz/1459894471378-0.9461427330970764/tmp.tgz
-49 verbose tar pack [ '/Users/jimmy/.npm/grunt-minify-html/2.0.0/package.tgz',
-49 verbose tar pack   '/var/folders/cr/cql7gsh9541f__j63w2c9t5c0000gn/T/npm-2255-9Rx2pPdz/1459894471378-0.9461427330970764/package' ]
-50 verbose tarball /Users/jimmy/.npm/grunt-minify-html/2.0.0/package.tgz
-51 verbose folder /var/folders/cr/cql7gsh9541f__j63w2c9t5c0000gn/T/npm-2255-9Rx2pPdz/1459894471378-0.9461427330970764/package
-52 silly lockFile f9d2ba91-71378-0-9461427330970764-package tar:///var/folders/cr/cql7gsh9541f__j63w2c9t5c0000gn/T/npm-2255-9Rx2pPdz/1459894471378-0.9461427330970764/package
-53 verbose lock tar:///var/folders/cr/cql7gsh9541f__j63w2c9t5c0000gn/T/npm-2255-9Rx2pPdz/1459894471378-0.9461427330970764/package /Users/jimmy/.npm/f9d2ba91-71378-0-9461427330970764-package.lock
-54 silly lockFile b8a5be3d-nt-minify-html-2-0-0-package-tgz tar:///Users/jimmy/.npm/grunt-minify-html/2.0.0/package.tgz
-55 verbose lock tar:///Users/jimmy/.npm/grunt-minify-html/2.0.0/package.tgz /Users/jimmy/.npm/b8a5be3d-nt-minify-html-2-0-0-package-tgz.lock
-56 silly lockFile f9d2ba91-71378-0-9461427330970764-package tar:///var/folders/cr/cql7gsh9541f__j63w2c9t5c0000gn/T/npm-2255-9Rx2pPdz/1459894471378-0.9461427330970764/package
-57 silly lockFile f9d2ba91-71378-0-9461427330970764-package tar:///var/folders/cr/cql7gsh9541f__j63w2c9t5c0000gn/T/npm-2255-9Rx2pPdz/1459894471378-0.9461427330970764/package
-58 silly lockFile b8a5be3d-nt-minify-html-2-0-0-package-tgz tar:///Users/jimmy/.npm/grunt-minify-html/2.0.0/package.tgz
-59 silly lockFile b8a5be3d-nt-minify-html-2-0-0-package-tgz tar:///Users/jimmy/.npm/grunt-minify-html/2.0.0/package.tgz
-60 silly lockFile 2a939ef5--grunt-minify-html-2-0-0-package /Users/jimmy/.npm/grunt-minify-html/2.0.0/package
-61 verbose lock /Users/jimmy/.npm/grunt-minify-html/2.0.0/package /Users/jimmy/.npm/2a939ef5--grunt-minify-html-2-0-0-package.lock
-62 silly lockFile 2a939ef5--grunt-minify-html-2-0-0-package /Users/jimmy/.npm/grunt-minify-html/2.0.0/package
-63 silly lockFile 2a939ef5--grunt-minify-html-2-0-0-package /Users/jimmy/.npm/grunt-minify-html/2.0.0/package
-64 verbose tar unpack /Users/jimmy/.npm/grunt-minify-html/2.0.0/package.tgz
-65 silly lockFile 185c815e--grunt-minify-html-2-0-0-package tar:///Users/jimmy/.npm/grunt-minify-html/2.0.0/package
-66 verbose lock tar:///Users/jimmy/.npm/grunt-minify-html/2.0.0/package /Users/jimmy/.npm/185c815e--grunt-minify-html-2-0-0-package.lock
-67 silly lockFile b8a5be3d-nt-minify-html-2-0-0-package-tgz tar:///Users/jimmy/.npm/grunt-minify-html/2.0.0/package.tgz
-68 verbose lock tar:///Users/jimmy/.npm/grunt-minify-html/2.0.0/package.tgz /Users/jimmy/.npm/b8a5be3d-nt-minify-html-2-0-0-package-tgz.lock
-69 silly gunzTarPerm modes [ '755', '644' ]
-70 silly gunzTarPerm extractEntry package.json
-71 silly gunzTarPerm extractEntry readme.md
-72 silly gunzTarPerm extractEntry tasks/minify-html.js
-73 silly lockFile 185c815e--grunt-minify-html-2-0-0-package tar:///Users/jimmy/.npm/grunt-minify-html/2.0.0/package
-74 silly lockFile 185c815e--grunt-minify-html-2-0-0-package tar:///Users/jimmy/.npm/grunt-minify-html/2.0.0/package
-75 silly lockFile b8a5be3d-nt-minify-html-2-0-0-package-tgz tar:///Users/jimmy/.npm/grunt-minify-html/2.0.0/package.tgz
-76 silly lockFile b8a5be3d-nt-minify-html-2-0-0-package-tgz tar:///Users/jimmy/.npm/grunt-minify-html/2.0.0/package.tgz
-77 verbose chmod /Users/jimmy/.npm/grunt-minify-html/2.0.0/package.tgz 644
-78 verbose chown /Users/jimmy/.npm/grunt-minify-html/2.0.0/package.tgz [ 501, 20 ]
-79 silly lockFile 2e4de092-html-grunt-minify-html-2-0-0-tgz https://registry.npmjs.org/grunt-minify-html/-/grunt-minify-html-2.0.0.tgz
-80 silly lockFile 2e4de092-html-grunt-minify-html-2-0-0-tgz https://registry.npmjs.org/grunt-minify-html/-/grunt-minify-html-2.0.0.tgz
-81 silly lockFile 7c1049fb-grunt-minify-html-2-0-0 grunt-minify-html@2.0.0
-82 silly lockFile 7c1049fb-grunt-minify-html-2-0-0 grunt-minify-html@2.0.0
-83 silly lockFile 54058446-grunt-minify-html grunt-minify-html@
-84 silly lockFile 54058446-grunt-minify-html grunt-minify-html@
-85 silly resolved [ { name: 'grunt-minify-html',
-85 silly resolved     version: '2.0.0',
-85 silly resolved     description: 'Minify HTML',
-85 silly resolved     license: 'MIT',
-85 silly resolved     repository:
-85 silly resolved      { type: 'git',
-85 silly resolved        url: 'git://github.com/sindresorhus/grunt-minify-html' },
-85 silly resolved     author:
-85 silly resolved      { name: 'Sindre Sorhus',
-85 silly resolved        email: 'sindresorhus@gmail.com',
-85 silly resolved        url: 'http://sindresorhus.com' },
-85 silly resolved     engines: { node: '>=0.10.0' },
-85 silly resolved     scripts: { test: 'grunt' },
-85 silly resolved     files: [ 'tasks' ],
-85 silly resolved     keywords:
-85 silly resolved      [ 'gruntplugin',
-85 silly resolved        'html',
-85 silly resolved        'minify',
-85 silly resolved        'minifier',
-85 silly resolved        'minimize',
-85 silly resolved        'min',
-85 silly resolved        'compress' ],
-85 silly resolved     dependencies: { 'each-async': '^1.0.0', minimize: '^1.1.0', mkdirp: '^0.5.0' },
-85 silly resolved     devDependencies:
-85 silly resolved      { grunt: '^0.4.5',
-85 silly resolved        'grunt-cli': '^0.1.13',
-85 silly resolved        'grunt-contrib-clean': '^0.6.0',
-85 silly resolved        'grunt-simple-mocha': '^0.4.0' },
-85 silly resolved     readme: '# grunt-minify-html [![Build Status](https://travis-ci.org/sindresorhus/grunt-minify-html.svg?branch=master)](https://travis-ci.org/sindresorhus/grunt-minify-html)\n\n> Minify HTML using [minimize](https://github.com/Moveo/minimize)\n\n*Issues with the output should be reported on the minimize [issue tracker](https://github.com/Moveo/minimize/issues).*\n\nThis differs from [grunt-contrib-htmlmin](https://github.com/gruntjs/grunt-contrib-htmlmin) in that it uses a proper [HTML-parser](https://github.com/Moveo/minimize#credits) instead of a [bunch of fragile regexes](https://github.com/kangax/html-minifier/blob/27fce5b5a7c166ea6149fba78a418e475658f075/src/htmlparser.js#L35-L41).\n\n\n## Install\n\n```sh\n$ npm install --save-dev grunt-minify-html\n```\n\n\n## Usage\n\n```js\nrequire(\'load-grunt-tasks\')(grunt); // npm install --save-dev load-grunt-tasks\n\ngrunt.initConfig({\n\tminifyHtml: {\n\t\toptions: {\n\t\t\tcdata: true\n\t\t},\n\t\tdist: {\n\t\t\tfiles: {\n\t\t\t\t\'dist/index.html\': \'src/index.html\'\n\t\t\t}\n\t\t}\n\t}\n});\n\ngrunt.registerTask(\'default\', [\'minifyHtml\']);\n```\n\n\n## Options\n\nSee the minimize [options](https://github.com/Moveo/minimize#options).\n\n\n## License\n\nMIT © [Sindre Sorhus](http://sindresorhus.com)\n',
-85 silly resolved     readmeFilename: 'readme.md',
-85 silly resolved     bugs: { url: 'https://github.com/sindresorhus/grunt-minify-html/issues' },
-85 silly resolved     _id: 'grunt-minify-html@2.0.0',
-85 silly resolved     dist: { shasum: 'b2971fb0aeb903be646888e201a8d8c519d3d8a4' },
-85 silly resolved     _from: 'grunt-minify-html@',
-85 silly resolved     _resolved: 'https://registry.npmjs.org/grunt-minify-html/-/grunt-minify-html-2.0.0.tgz' } ]
-86 info install grunt-minify-html@2.0.0 into /Applications/MAMP/htdocs/jimie
-87 info installOne grunt-minify-html@2.0.0
-88 info /Applications/MAMP/htdocs/jimie/node_modules/grunt-minify-html unbuild
-89 verbose tar unpack /Users/jimmy/.npm/grunt-minify-html/2.0.0/package.tgz
-90 silly lockFile 88b131a4-e-node-modules-grunt-minify-html tar:///Applications/MAMP/htdocs/jimie/node_modules/grunt-minify-html
-91 verbose lock tar:///Applications/MAMP/htdocs/jimie/node_modules/grunt-minify-html /Users/jimmy/.npm/88b131a4-e-node-modules-grunt-minify-html.lock
-92 silly lockFile b8a5be3d-nt-minify-html-2-0-0-package-tgz tar:///Users/jimmy/.npm/grunt-minify-html/2.0.0/package.tgz
-93 verbose lock tar:///Users/jimmy/.npm/grunt-minify-html/2.0.0/package.tgz /Users/jimmy/.npm/b8a5be3d-nt-minify-html-2-0-0-package-tgz.lock
-94 silly gunzTarPerm modes [ '755', '644' ]
-95 silly gunzTarPerm extractEntry package.json
-96 silly gunzTarPerm extractEntry readme.md
-97 silly gunzTarPerm extractEntry tasks/minify-html.js
-98 silly lockFile 88b131a4-e-node-modules-grunt-minify-html tar:///Applications/MAMP/htdocs/jimie/node_modules/grunt-minify-html
-99 silly lockFile 88b131a4-e-node-modules-grunt-minify-html tar:///Applications/MAMP/htdocs/jimie/node_modules/grunt-minify-html
-100 silly lockFile b8a5be3d-nt-minify-html-2-0-0-package-tgz tar:///Users/jimmy/.npm/grunt-minify-html/2.0.0/package.tgz
-101 silly lockFile b8a5be3d-nt-minify-html-2-0-0-package-tgz tar:///Users/jimmy/.npm/grunt-minify-html/2.0.0/package.tgz
-102 info preinstall grunt-minify-html@2.0.0
-103 verbose readDependencies using package.json deps
-104 verbose readDependencies using package.json deps
-105 verbose cache add [ 'mkdirp@^0.5.0', null ]
-106 verbose cache add name=undefined spec="mkdirp@^0.5.0" args=["mkdirp@^0.5.0",null]
-107 verbose parsed url { protocol: null,
-107 verbose parsed url   slashes: null,
-107 verbose parsed url   auth: null,
-107 verbose parsed url   host: null,
-107 verbose parsed url   port: null,
-107 verbose parsed url   hostname: null,
-107 verbose parsed url   hash: null,
-107 verbose parsed url   search: null,
-107 verbose parsed url   query: null,
-107 verbose parsed url   pathname: 'mkdirp@^0.5.0',
-107 verbose parsed url   path: 'mkdirp@^0.5.0',
-107 verbose parsed url   href: 'mkdirp@^0.5.0' }
-108 verbose cache add name="mkdirp" spec="^0.5.0" args=["mkdirp","^0.5.0"]
-109 verbose parsed url { protocol: null,
-109 verbose parsed url   slashes: null,
-109 verbose parsed url   auth: null,
-109 verbose parsed url   host: null,
-109 verbose parsed url   port: null,
-109 verbose parsed url   hostname: null,
-109 verbose parsed url   hash: null,
-109 verbose parsed url   search: null,
-109 verbose parsed url   query: null,
-109 verbose parsed url   pathname: '^0.5.0',
-109 verbose parsed url   path: '^0.5.0',
-109 verbose parsed url   href: '^0.5.0' }
-110 verbose addNamed [ 'mkdirp', '^0.5.0' ]
-111 verbose addNamed [ null, '>=0.5.0-0 <0.6.0-0' ]
-112 silly lockFile 0879e7d7-mkdirp-0-5-0 mkdirp@^0.5.0
-113 verbose lock mkdirp@^0.5.0 /Users/jimmy/.npm/0879e7d7-mkdirp-0-5-0.lock
-114 verbose cache add [ 'each-async@^1.0.0', null ]
-115 verbose cache add name=undefined spec="each-async@^1.0.0" args=["each-async@^1.0.0",null]
-116 verbose parsed url { protocol: null,
-116 verbose parsed url   slashes: null,
-116 verbose parsed url   auth: null,
-116 verbose parsed url   host: null,
-116 verbose parsed url   port: null,
-116 verbose parsed url   hostname: null,
-116 verbose parsed url   hash: null,
-116 verbose parsed url   search: null,
-116 verbose parsed url   query: null,
-116 verbose parsed url   pathname: 'each-async@^1.0.0',
-116 verbose parsed url   path: 'each-async@^1.0.0',
-116 verbose parsed url   href: 'each-async@^1.0.0' }
-117 verbose cache add name="each-async" spec="^1.0.0" args=["each-async","^1.0.0"]
-118 verbose parsed url { protocol: null,
-118 verbose parsed url   slashes: null,
-118 verbose parsed url   auth: null,
-118 verbose parsed url   host: null,
-118 verbose parsed url   port: null,
-118 verbose parsed url   hostname: null,
-118 verbose parsed url   hash: null,
-118 verbose parsed url   search: null,
-118 verbose parsed url   query: null,
-118 verbose parsed url   pathname: '^1.0.0',
-118 verbose parsed url   path: '^1.0.0',
-118 verbose parsed url   href: '^1.0.0' }
-119 verbose addNamed [ 'each-async', '^1.0.0' ]
-120 verbose addNamed [ null, '>=1.0.0-0 <2.0.0-0' ]
-121 silly lockFile 61783ba7-each-async-1-0-0 each-async@^1.0.0
-122 verbose lock each-async@^1.0.0 /Users/jimmy/.npm/61783ba7-each-async-1-0-0.lock
-123 verbose cache add [ 'minimize@^1.1.0', null ]
-124 verbose cache add name=undefined spec="minimize@^1.1.0" args=["minimize@^1.1.0",null]
-125 verbose parsed url { protocol: null,
-125 verbose parsed url   slashes: null,
-125 verbose parsed url   auth: null,
-125 verbose parsed url   host: null,
-125 verbose parsed url   port: null,
-125 verbose parsed url   hostname: null,
-125 verbose parsed url   hash: null,
-125 verbose parsed url   search: null,
-125 verbose parsed url   query: null,
-125 verbose parsed url   pathname: 'minimize@^1.1.0',
-125 verbose parsed url   path: 'minimize@^1.1.0',
-125 verbose parsed url   href: 'minimize@^1.1.0' }
-126 verbose cache add name="minimize" spec="^1.1.0" args=["minimize","^1.1.0"]
-127 verbose parsed url { protocol: null,
-127 verbose parsed url   slashes: null,
-127 verbose parsed url   auth: null,
-127 verbose parsed url   host: null,
-127 verbose parsed url   port: null,
-127 verbose parsed url   hostname: null,
-127 verbose parsed url   hash: null,
-127 verbose parsed url   search: null,
-127 verbose parsed url   query: null,
-127 verbose parsed url   pathname: '^1.1.0',
-127 verbose parsed url   path: '^1.1.0',
-127 verbose parsed url   href: '^1.1.0' }
-128 verbose addNamed [ 'minimize', '^1.1.0' ]
-129 verbose addNamed [ null, '>=1.1.0-0 <2.0.0-0' ]
-130 silly lockFile 43317018-minimize-1-1-0 minimize@^1.1.0
-131 verbose lock minimize@^1.1.0 /Users/jimmy/.npm/43317018-minimize-1-1-0.lock
-132 silly addNameRange { name: 'mkdirp', range: '>=0.5.0-0 <0.6.0-0', hasData: false }
-133 silly addNameRange { name: 'each-async',
-133 silly addNameRange   range: '>=1.0.0-0 <2.0.0-0',
-133 silly addNameRange   hasData: false }
-134 silly addNameRange { name: 'minimize', range: '>=1.1.0-0 <2.0.0-0', hasData: false }
-135 verbose url raw minimize
-136 verbose url resolving [ 'https://registry.npmjs.org/', './minimize' ]
-137 verbose url resolved https://registry.npmjs.org/minimize
-138 info trying registry request attempt 1 at 23:14:31
-139 http GET https://registry.npmjs.org/minimize
-140 verbose url raw each-async
-141 verbose url resolving [ 'https://registry.npmjs.org/', './each-async' ]
-142 verbose url resolved https://registry.npmjs.org/each-async
-143 info trying registry request attempt 1 at 23:14:31
-144 verbose etag "6YPL3DP15CEROCET4S5QW29AN"
-145 http GET https://registry.npmjs.org/each-async
-146 verbose url raw mkdirp
-147 verbose url resolving [ 'https://registry.npmjs.org/', './mkdirp' ]
-148 verbose url resolved https://registry.npmjs.org/mkdirp
-149 info trying registry request attempt 1 at 23:14:31
-150 verbose etag "3S0RKN8WWE613Z2LN0KUKL1DS"
-151 http GET https://registry.npmjs.org/mkdirp
-152 http 200 https://registry.npmjs.org/each-async
-153 silly registry.get cb [ 200,
-153 silly registry.get   { server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
-153 silly registry.get     etag: '"8Y7OABDLDF8YCL1U0J5SE5I6K"',
-153 silly registry.get     'content-type': 'application/json',
-153 silly registry.get     'cache-control': 'max-age=300',
-153 silly registry.get     'content-length': '10559',
-153 silly registry.get     'accept-ranges': 'bytes',
-153 silly registry.get     date: 'Tue, 05 Apr 2016 22:14:28 GMT',
-153 silly registry.get     via: '1.1 varnish',
-153 silly registry.get     age: '56',
-153 silly registry.get     connection: 'keep-alive',
-153 silly registry.get     'x-served-by': 'cache-ams4141-AMS',
-153 silly registry.get     'x-cache': 'HIT',
-153 silly registry.get     'x-cache-hits': '1',
-153 silly registry.get     'x-timer': 'S1459894468.976916,VS0,VE0',
-153 silly registry.get     vary: 'Accept' } ]
-154 silly addNameRange number 2 { name: 'each-async',
-154 silly addNameRange   range: '>=1.0.0-0 <2.0.0-0',
-154 silly addNameRange   hasData: true }
-155 silly addNameRange versions [ 'each-async',
-155 silly addNameRange   [ '0.1.0', '0.1.1', '0.1.2', '0.1.3', '1.0.0', '1.1.0', '1.1.1' ] ]
-156 verbose addNamed [ 'each-async', '1.1.1' ]
-157 verbose addNamed [ '1.1.1', '1.1.1' ]
-158 silly lockFile e1300715-each-async-1-1-1 each-async@1.1.1
-159 verbose lock each-async@1.1.1 /Users/jimmy/.npm/e1300715-each-async-1-1-1.lock
-160 silly lockFile e1300715-each-async-1-1-1 each-async@1.1.1
-161 silly lockFile e1300715-each-async-1-1-1 each-async@1.1.1
-162 silly lockFile 61783ba7-each-async-1-0-0 each-async@^1.0.0
-163 silly lockFile 61783ba7-each-async-1-0-0 each-async@^1.0.0
-164 http 200 https://registry.npmjs.org/mkdirp
-165 silly registry.get cb [ 200,
-165 silly registry.get   { server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
-165 silly registry.get     etag: '"4PH72MHDKPUQ0CP0Y61GAYKS"',
-165 silly registry.get     'content-type': 'application/json',
-165 silly registry.get     'cache-control': 'max-age=300',
-165 silly registry.get     'content-length': '23856',
-165 silly registry.get     'accept-ranges': 'bytes',
-165 silly registry.get     date: 'Tue, 05 Apr 2016 22:14:28 GMT',
-165 silly registry.get     via: '1.1 varnish',
-165 silly registry.get     age: '289',
-165 silly registry.get     connection: 'keep-alive',
-165 silly registry.get     'x-served-by': 'cache-ams4132-AMS',
-165 silly registry.get     'x-cache': 'HIT',
-165 silly registry.get     'x-cache-hits': '1',
-165 silly registry.get     'x-timer': 'S1459894468.989327,VS0,VE0',
-165 silly registry.get     vary: 'Accept-Encoding' } ]
-166 silly addNameRange number 2 { name: 'mkdirp', range: '>=0.5.0-0 <0.6.0-0', hasData: true }
-167 silly addNameRange versions [ 'mkdirp',
-167 silly addNameRange   [ '0.0.1',
-167 silly addNameRange     '0.0.2',
-167 silly addNameRange     '0.0.3',
-167 silly addNameRange     '0.0.4',
-167 silly addNameRange     '0.0.5',
-167 silly addNameRange     '0.0.6',
-167 silly addNameRange     '0.0.7',
-167 silly addNameRange     '0.1.0',
-167 silly addNameRange     '0.2.0',
-167 silly addNameRange     '0.2.1',
-167 silly addNameRange     '0.2.2',
-167 silly addNameRange     '0.3.0',
-167 silly addNameRange     '0.3.1',
-167 silly addNameRange     '0.3.2',
-167 silly addNameRange     '0.3.3',
-167 silly addNameRange     '0.3.4',
-167 silly addNameRange     '0.3.5',
-167 silly addNameRange     '0.4.0',
-167 silly addNameRange     '0.4.1',
-167 silly addNameRange     '0.4.2',
-167 silly addNameRange     '0.5.0',
-167 silly addNameRange     '0.5.1' ] ]
-168 verbose addNamed [ 'mkdirp', '0.5.1' ]
-169 verbose addNamed [ '0.5.1', '0.5.1' ]
-170 silly lockFile 8968b51f-mkdirp-0-5-1 mkdirp@0.5.1
-171 verbose lock mkdirp@0.5.1 /Users/jimmy/.npm/8968b51f-mkdirp-0-5-1.lock
-172 silly lockFile 8968b51f-mkdirp-0-5-1 mkdirp@0.5.1
-173 silly lockFile 8968b51f-mkdirp-0-5-1 mkdirp@0.5.1
-174 silly lockFile 0879e7d7-mkdirp-0-5-0 mkdirp@^0.5.0
-175 silly lockFile 0879e7d7-mkdirp-0-5-0 mkdirp@^0.5.0
-176 http 200 https://registry.npmjs.org/minimize
-177 silly registry.get cb [ 200,
-177 silly registry.get   { server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
-177 silly registry.get     etag: '"9SG95NBWFDRPX89JTERPXQY1C"',
-177 silly registry.get     'content-type': 'application/json',
-177 silly registry.get     'cache-control': 'max-age=300',
-177 silly registry.get     'content-length': '81921',
-177 silly registry.get     'accept-ranges': 'bytes',
-177 silly registry.get     date: 'Tue, 05 Apr 2016 22:14:29 GMT',
-177 silly registry.get     via: '1.1 varnish',
-177 silly registry.get     age: '0',
-177 silly registry.get     connection: 'keep-alive',
-177 silly registry.get     'x-served-by': 'cache-ams4146-AMS',
-177 silly registry.get     'x-cache': 'HIT',
-177 silly registry.get     'x-cache-hits': '1',
-177 silly registry.get     'x-timer': 'S1459894468.985498,VS0,VE177',
-177 silly registry.get     vary: 'Accept-Encoding' } ]
-178 silly addNameRange number 2 { name: 'minimize', range: '>=1.1.0-0 <2.0.0-0', hasData: true }
-179 silly addNameRange versions [ 'minimize',
-179 silly addNameRange   [ '0.0.1',
-179 silly addNameRange     '0.0.5',
-179 silly addNameRange     '0.0.6',
-179 silly addNameRange     '0.0.7',
-179 silly addNameRange     '0.3.0',
-179 silly addNameRange     '0.3.1',
-179 silly addNameRange     '0.4.0',
-179 silly addNameRange     '0.4.1',
-179 silly addNameRange     '0.4.2',
-179 silly addNameRange     '0.4.3',
-179 silly addNameRange     '0.4.4',
-179 silly addNameRange     '0.4.5',
-179 silly addNameRange     '0.5.0',
-179 silly addNameRange     '0.5.1',
-179 silly addNameRange     '0.5.2',
-179 silly addNameRange     '0.5.3',
-179 silly addNameRange     '0.5.4',
-179 silly addNameRange     '0.5.5',
-179 silly addNameRange     '0.5.6',
-179 silly addNameRange     '0.5.7',
-179 silly addNameRange     '0.5.8',
-179 silly addNameRange     '0.5.9',
-179 silly addNameRange     '0.5.10',
-179 silly addNameRange     '0.5.11',
-179 silly addNameRange     '0.5.12',
-179 silly addNameRange     '0.5.13',
-179 silly addNameRange     '0.5.14',
-179 silly addNameRange     '0.6.0',
-179 silly addNameRange     '0.7.0',
-179 silly addNameRange     '0.7.1',
-179 silly addNameRange     '0.7.2',
-179 silly addNameRange     '0.7.3',
-179 silly addNameRange     '0.7.4',
-179 silly addNameRange     '0.7.5',
-179 silly addNameRange     '0.7.6',
-179 silly addNameRange     '0.7.7',
-179 silly addNameRange     '0.8.0',
-179 silly addNameRange     '0.8.1',
-179 silly addNameRange     '0.8.2',
-179 silly addNameRange     '0.9.0',
-179 silly addNameRange     '0.10.0',
-179 silly addNameRange     '0.10.1',
-179 silly addNameRange     '1.0.0',
-179 silly addNameRange     '1.1.0',
-179 silly addNameRange     '1.2.0',
-179 silly addNameRange     '1.2.1',
-179 silly addNameRange     '1.3.0',
-179 silly addNameRange     '1.3.1',
-179 silly addNameRange     '1.3.2',
-179 silly addNameRange     '1.3.3',
-179 silly addNameRange     '1.4.0',
-179 silly addNameRange     '1.4.1',
-179 silly addNameRange     '1.5.0',
-179 silly addNameRange     '1.6.0',
-179 silly addNameRange     '1.6.1',
-179 silly addNameRange     '1.7.0',
-179 silly addNameRange     '1.7.1',
-179 silly addNameRange     '1.7.2',
-179 silly addNameRange     '1.7.3',
-179 silly addNameRange     '1.7.4',
-179 silly addNameRange     '1.8.0',
-179 silly addNameRange     '1.8.1' ] ]
-180 verbose addNamed [ 'minimize', '1.8.1' ]
-181 verbose addNamed [ '1.8.1', '1.8.1' ]
-182 silly lockFile d26f25d2-minimize-1-8-1 minimize@1.8.1
-183 verbose lock minimize@1.8.1 /Users/jimmy/.npm/d26f25d2-minimize-1-8-1.lock
-184 silly lockFile 14942c83--org-minimize-minimize-1-8-1-tgz https://registry.npmjs.org/minimize/-/minimize-1.8.1.tgz
-185 verbose lock https://registry.npmjs.org/minimize/-/minimize-1.8.1.tgz /Users/jimmy/.npm/14942c83--org-minimize-minimize-1-8-1-tgz.lock
-186 verbose addRemoteTarball [ 'https://registry.npmjs.org/minimize/-/minimize-1.8.1.tgz',
-186 verbose addRemoteTarball   'a3674ade93f28a75ffa23b8e0f365cdc23d69d8b' ]
-187 info retry fetch attempt 1 at 23:14:32
-188 verbose fetch to= /var/folders/cr/cql7gsh9541f__j63w2c9t5c0000gn/T/npm-2255-9Rx2pPdz/1459894472243-0.627171725500375/tmp.tgz
-189 http GET https://registry.npmjs.org/minimize/-/minimize-1.8.1.tgz
-190 http 200 https://registry.npmjs.org/minimize/-/minimize-1.8.1.tgz
-191 verbose tar unpack /var/folders/cr/cql7gsh9541f__j63w2c9t5c0000gn/T/npm-2255-9Rx2pPdz/1459894472243-0.627171725500375/tmp.tgz
-192 silly lockFile ae30207b-472243-0-627171725500375-package tar:///var/folders/cr/cql7gsh9541f__j63w2c9t5c0000gn/T/npm-2255-9Rx2pPdz/1459894472243-0.627171725500375/package
-193 verbose lock tar:///var/folders/cr/cql7gsh9541f__j63w2c9t5c0000gn/T/npm-2255-9Rx2pPdz/1459894472243-0.627171725500375/package /Users/jimmy/.npm/ae30207b-472243-0-627171725500375-package.lock
-194 silly lockFile 1547e7a0-472243-0-627171725500375-tmp-tgz tar:///var/folders/cr/cql7gsh9541f__j63w2c9t5c0000gn/T/npm-2255-9Rx2pPdz/1459894472243-0.627171725500375/tmp.tgz
-195 verbose lock tar:///var/folders/cr/cql7gsh9541f__j63w2c9t5c0000gn/T/npm-2255-9Rx2pPdz/1459894472243-0.627171725500375/tmp.tgz /Users/jimmy/.npm/1547e7a0-472243-0-627171725500375-tmp-tgz.lock
-196 silly gunzTarPerm modes [ '755', '644' ]
-197 silly gunzTarPerm extractEntry package.json
-198 silly gunzTarPerm extractEntry .npmignore
-199 silly gunzTarPerm extractEntry README.md
-200 silly gunzTarPerm extractEntry LICENSE
-201 silly gunzTarPerm extractEntry bin/minimize
-202 silly gunzTarPerm extractEntry lib/helpers.js
-203 silly gunzTarPerm extractEntry lib/list.js
-204 silly gunzTarPerm extractEntry lib/minimize.js
-205 silly gunzTarPerm extractEntry .travis.yml
-206 silly gunzTarPerm extractEntry test/helpers-test.js
-207 silly gunzTarPerm extractEntry test/list-test.js
-208 silly gunzTarPerm extractEntry test/minimize-test.js
-209 silly gunzTarPerm extractEntry test/fixtures/plugin.js
-210 silly gunzTarPerm extractEntry test/fixtures/html.json
-211 silly lockFile ae30207b-472243-0-627171725500375-package tar:///var/folders/cr/cql7gsh9541f__j63w2c9t5c0000gn/T/npm-2255-9Rx2pPdz/1459894472243-0.627171725500375/package
-212 silly lockFile ae30207b-472243-0-627171725500375-package tar:///var/folders/cr/cql7gsh9541f__j63w2c9t5c0000gn/T/npm-2255-9Rx2pPdz/1459894472243-0.627171725500375/package
-213 silly lockFile 1547e7a0-472243-0-627171725500375-tmp-tgz tar:///var/folders/cr/cql7gsh9541f__j63w2c9t5c0000gn/T/npm-2255-9Rx2pPdz/1459894472243-0.627171725500375/tmp.tgz
-214 silly lockFile 1547e7a0-472243-0-627171725500375-tmp-tgz tar:///var/folders/cr/cql7gsh9541f__j63w2c9t5c0000gn/T/npm-2255-9Rx2pPdz/1459894472243-0.627171725500375/tmp.tgz
-215 verbose tar pack [ '/Users/jimmy/.npm/minimize/1.8.1/package.tgz',
-215 verbose tar pack   '/var/folders/cr/cql7gsh9541f__j63w2c9t5c0000gn/T/npm-2255-9Rx2pPdz/1459894472243-0.627171725500375/package' ]
-216 verbose tarball /Users/jimmy/.npm/minimize/1.8.1/package.tgz
-217 verbose folder /var/folders/cr/cql7gsh9541f__j63w2c9t5c0000gn/T/npm-2255-9Rx2pPdz/1459894472243-0.627171725500375/package
-218 silly lockFile ae30207b-472243-0-627171725500375-package tar:///var/folders/cr/cql7gsh9541f__j63w2c9t5c0000gn/T/npm-2255-9Rx2pPdz/1459894472243-0.627171725500375/package
-219 verbose lock tar:///var/folders/cr/cql7gsh9541f__j63w2c9t5c0000gn/T/npm-2255-9Rx2pPdz/1459894472243-0.627171725500375/package /Users/jimmy/.npm/ae30207b-472243-0-627171725500375-package.lock
-220 silly lockFile a75daf6f-y-npm-minimize-1-8-1-package-tgz tar:///Users/jimmy/.npm/minimize/1.8.1/package.tgz
-221 verbose lock tar:///Users/jimmy/.npm/minimize/1.8.1/package.tgz /Users/jimmy/.npm/a75daf6f-y-npm-minimize-1-8-1-package-tgz.lock
-222 silly lockFile ae30207b-472243-0-627171725500375-package tar:///var/folders/cr/cql7gsh9541f__j63w2c9t5c0000gn/T/npm-2255-9Rx2pPdz/1459894472243-0.627171725500375/package
-223 silly lockFile ae30207b-472243-0-627171725500375-package tar:///var/folders/cr/cql7gsh9541f__j63w2c9t5c0000gn/T/npm-2255-9Rx2pPdz/1459894472243-0.627171725500375/package
-224 silly lockFile a75daf6f-y-npm-minimize-1-8-1-package-tgz tar:///Users/jimmy/.npm/minimize/1.8.1/package.tgz
-225 silly lockFile a75daf6f-y-npm-minimize-1-8-1-package-tgz tar:///Users/jimmy/.npm/minimize/1.8.1/package.tgz
-226 silly lockFile a519a7a9-jimmy-npm-minimize-1-8-1-package /Users/jimmy/.npm/minimize/1.8.1/package
-227 verbose lock /Users/jimmy/.npm/minimize/1.8.1/package /Users/jimmy/.npm/a519a7a9-jimmy-npm-minimize-1-8-1-package.lock
-228 silly lockFile a519a7a9-jimmy-npm-minimize-1-8-1-package /Users/jimmy/.npm/minimize/1.8.1/package
-229 silly lockFile a519a7a9-jimmy-npm-minimize-1-8-1-package /Users/jimmy/.npm/minimize/1.8.1/package
-230 verbose tar unpack /Users/jimmy/.npm/minimize/1.8.1/package.tgz
-231 silly lockFile 59439886-jimmy-npm-minimize-1-8-1-package tar:///Users/jimmy/.npm/minimize/1.8.1/package
-232 verbose lock tar:///Users/jimmy/.npm/minimize/1.8.1/package /Users/jimmy/.npm/59439886-jimmy-npm-minimize-1-8-1-package.lock
-233 silly lockFile a75daf6f-y-npm-minimize-1-8-1-package-tgz tar:///Users/jimmy/.npm/minimize/1.8.1/package.tgz
-234 verbose lock tar:///Users/jimmy/.npm/minimize/1.8.1/package.tgz /Users/jimmy/.npm/a75daf6f-y-npm-minimize-1-8-1-package-tgz.lock
-235 silly gunzTarPerm modes [ '755', '644' ]
-236 silly gunzTarPerm extractEntry package.json
-237 silly gunzTarPerm extractEntry .npmignore
-238 silly gunzTarPerm extractEntry README.md
-239 silly gunzTarPerm extractEntry LICENSE
-240 silly gunzTarPerm extractEntry .travis.yml
-241 silly gunzTarPerm extractEntry bin/minimize
-242 silly gunzTarPerm extractEntry lib/helpers.js
-243 silly gunzTarPerm extractEntry lib/list.js
-244 silly gunzTarPerm extractEntry lib/minimize.js
-245 silly gunzTarPerm extractEntry test/helpers-test.js
-246 silly gunzTarPerm extractEntry test/list-test.js
-247 silly gunzTarPerm extractEntry test/minimize-test.js
-248 silly gunzTarPerm extractEntry test/fixtures/plugin.js
-249 silly gunzTarPerm extractEntry test/fixtures/html.json
-250 silly lockFile 59439886-jimmy-npm-minimize-1-8-1-package tar:///Users/jimmy/.npm/minimize/1.8.1/package
-251 silly lockFile 59439886-jimmy-npm-minimize-1-8-1-package tar:///Users/jimmy/.npm/minimize/1.8.1/package
-252 silly lockFile a75daf6f-y-npm-minimize-1-8-1-package-tgz tar:///Users/jimmy/.npm/minimize/1.8.1/package.tgz
-253 silly lockFile a75daf6f-y-npm-minimize-1-8-1-package-tgz tar:///Users/jimmy/.npm/minimize/1.8.1/package.tgz
-254 verbose chmod /Users/jimmy/.npm/minimize/1.8.1/package.tgz 644
-255 verbose chown /Users/jimmy/.npm/minimize/1.8.1/package.tgz [ 501, 20 ]
-256 silly lockFile 14942c83--org-minimize-minimize-1-8-1-tgz https://registry.npmjs.org/minimize/-/minimize-1.8.1.tgz
-257 silly lockFile 14942c83--org-minimize-minimize-1-8-1-tgz https://registry.npmjs.org/minimize/-/minimize-1.8.1.tgz
-258 silly lockFile d26f25d2-minimize-1-8-1 minimize@1.8.1
-259 silly lockFile d26f25d2-minimize-1-8-1 minimize@1.8.1
-260 silly lockFile 43317018-minimize-1-1-0 minimize@^1.1.0
-261 silly lockFile 43317018-minimize-1-1-0 minimize@^1.1.0
-262 silly resolved [ { name: 'each-async',
-262 silly resolved     version: '1.1.1',
-262 silly resolved     description: 'Async concurrent iterator (async forEach)',
-262 silly resolved     license: 'MIT',
-262 silly resolved     repository: { type: 'git', url: 'git://github.com/sindresorhus/each-async' },
-262 silly resolved     author:
-262 silly resolved      { name: 'Sindre Sorhus',
-262 silly resolved        email: 'sindresorhus@gmail.com',
-262 silly resolved        url: 'http://sindresorhus.com' },
-262 silly resolved     engines: { node: '>=0.10.0' },
-262 silly resolved     scripts: { test: 'mocha --timeout 20000' },
-262 silly resolved     files: [ 'index.js' ],
-262 silly resolved     keywords:
-262 silly resolved      [ 'each',
-262 silly resolved        'async',
-262 silly resolved        'asynchronous',
-262 silly resolved        'iteration',
-262 silly resolved        'iterate',
-262 silly resolved        'loop',
-262 silly resolved        'foreach',
-262 silly resolved        'parallel',
-262 silly resolved        'concurrent',
-262 silly resolved        'array',
-262 silly resolved        'flow',
-262 silly resolved        'control flow' ],
-262 silly resolved     dependencies: { onetime: '^1.0.0', 'set-immediate-shim': '^1.0.0' },
-262 silly resolved     devDependencies: { mocha: '*' },
-262 silly resolved     readme: '# each-async [![Build Status](https://travis-ci.org/sindresorhus/each-async.svg?branch=master)](https://travis-ci.org/sindresorhus/each-async)\n\n> Async concurrent iterator (async forEach)\n\nLike [async.each()](https://github.com/caolan/async#eacharr-iterator-callback), but tiny.\n\nI often use `async.each()` for doing async operations when iterating, but I almost never use the other gadzillion methods in `async`.\n\nAsync iteration is one of the most used async control flow patterns.\n\n\n## Install\n\n```sh\n$ npm install --save each-async\n```\n\n\n## Usage\n\n```js\nvar eachAsync = require(\'each-async\');\n\neachAsync([\'foo\',\'bar\',\'baz\'], function (item, index, done) {\n\tconsole.log(item, index);\n\tdone();\n}, function (error) {\n\tconsole.log(\'finished\');\n});\n//=> foo 0\n//=> bar 1\n//=> baz 2\n//=> finished\n```\n\n\n## API\n\n### eachAsync(array, callback, finishedCallback)\n\n#### array\n\nThe array you want to iterate.\n\n#### callback(item, index, done)\n\nA function which is called for each item in the array with the following arguments:\n\n- `item`: the current item in the array\n- `index`: the current index\n- `done([error])`: call this when you\'re done with an optional error. Supplying anything other than `undefined`/`null` will stop the iteration.\n\nNote that order is not guaranteed since each item is handled concurrently.\n\n#### finishedCallback(error)\n\nA function which is called when the iteration is finished or on the first error. First argument is the error passed from `done()` in the `callback`.\n\n\n## License\n\nMIT © [Sindre Sorhus](http://sindresorhus.com)\n',
-262 silly resolved     readmeFilename: 'readme.md',
-262 silly resolved     bugs: { url: 'https://github.com/sindresorhus/each-async/issues' },
-262 silly resolved     _id: 'each-async@1.1.1',
-262 silly resolved     _from: 'each-async@^1.0.0' },
-262 silly resolved   { name: 'mkdirp',
-262 silly resolved     description: 'Recursively mkdir, like `mkdir -p`',
-262 silly resolved     version: '0.5.1',
-262 silly resolved     author:
-262 silly resolved      { name: 'James Halliday',
-262 silly resolved        email: 'mail@substack.net',
-262 silly resolved        url: 'http://substack.net' },
-262 silly resolved     main: 'index.js',
-262 silly resolved     keywords: [ 'mkdir', 'directory' ],
-262 silly resolved     repository:
-262 silly resolved      { type: 'git',
-262 silly resolved        url: 'https://github.com/substack/node-mkdirp.git' },
-262 silly resolved     scripts: { test: 'tap test/*.js' },
-262 silly resolved     dependencies: { minimist: '0.0.8' },
-262 silly resolved     devDependencies: { tap: '1', 'mock-fs': '2 >=2.7.0' },
-262 silly resolved     bin: { mkdirp: 'bin/cmd.js' },
-262 silly resolved     license: 'MIT',
-262 silly resolved     readme: '# mkdirp\n\nLike `mkdir -p`, but in node.js!\n\n[![build status](https://secure.travis-ci.org/substack/node-mkdirp.png)](http://travis-ci.org/substack/node-mkdirp)\n\n# example\n\n## pow.js\n\n```js\nvar mkdirp = require(\'mkdirp\');\n    \nmkdirp(\'/tmp/foo/bar/baz\', function (err) {\n    if (err) console.error(err)\n    else console.log(\'pow!\')\n});\n```\n\nOutput\n\n```\npow!\n```\n\nAnd now /tmp/foo/bar/baz exists, huzzah!\n\n# methods\n\n```js\nvar mkdirp = require(\'mkdirp\');\n```\n\n## mkdirp(dir, opts, cb)\n\nCreate a new directory and any necessary subdirectories at `dir` with octal\npermission string `opts.mode`. If `opts` is a non-object, it will be treated as\nthe `opts.mode`.\n\nIf `opts.mode` isn\'t specified, it defaults to `0777 & (~process.umask())`.\n\n`cb(err, made)` fires with the error or the first directory `made`\nthat had to be created, if any.\n\nYou can optionally pass in an alternate `fs` implementation by passing in\n`opts.fs`. Your implementation should have `opts.fs.mkdir(path, mode, cb)` and\n`opts.fs.stat(path, cb)`.\n\n## mkdirp.sync(dir, opts)\n\nSynchronously create a new directory and any necessary subdirectories at `dir`\nwith octal permission string `opts.mode`. If `opts` is a non-object, it will be\ntreated as the `opts.mode`.\n\nIf `opts.mode` isn\'t specified, it defaults to `0777 & (~process.umask())`.\n\nReturns the first directory that had to be created, if any.\n\nYou can optionally pass in an alternate `fs` implementation by passing in\n`opts.fs`. Your implementation should have `opts.fs.mkdirSync(path, mode)` and\n`opts.fs.statSync(path)`.\n\n# usage\n\nThis package also ships with a `mkdirp` command.\n\n```\nusage: mkdirp [DIR1,DIR2..] {OPTIONS}\n\n  Create each supplied directory including any necessary parent directories that\n  don\'t yet exist.\n  \n  If the directory already exists, do nothing.\n\nOPTIONS are:\n\n  -m, --mode   If a directory needs to be created, set the mode as an octal\n               permission string.\n\n```\n\n# install\n\nWith [npm](http://npmjs.org) do:\n\n```\nnpm install mkdirp\n```\n\nto get the library, or\n\n```\nnpm install -g mkdirp\n```\n\nto get the command.\n\n# license\n\nMIT\n',
-262 silly resolved     readmeFilename: 'readme.markdown',
-262 silly resolved     bugs: { url: 'https://github.com/substack/node-mkdirp/issues' },
-262 silly resolved     _id: 'mkdirp@0.5.1',
-262 silly resolved     _from: 'mkdirp@^0.5.0' },
-262 silly resolved   { name: 'minimize',
-262 silly resolved     version: '1.8.1',
-262 silly resolved     description: 'Minimize HTML',
-262 silly resolved     main: './lib/minimize',
-262 silly resolved     bin: { minimize: './bin/minimize' },
-262 silly resolved     scripts:
-262 silly resolved      { test: 'mocha $(find test -name \'*.test.js\')',
-262 silly resolved        watch: 'mocha --watch $(find test -name \'*.test.js\')',
-262 silly resolved        coverage: 'istanbul cover ./node_modules/.bin/_mocha -- $(find test -name \'*.test.js\')',
-262 silly resolved        'test-travis': 'istanbul cover node_modules/.bin/_mocha --report lcovonly -- $(find test -name \'*.test.js\')' },
-262 silly resolved     dependencies:
-262 silly resolved      { argh: '~0.1.4',
-262 silly resolved        async: '~1.5.2',
-262 silly resolved        'cli-color': '~1.1.0',
-262 silly resolved        diagnostics: '~1.0.1',
-262 silly resolved        emits: '~3.0.0',
-262 silly resolved        htmlparser2: '~3.9.0',
-262 silly resolved        'node-uuid': '~1.4.7' },
-262 silly resolved     devDependencies:
-262 silly resolved      { chai: '~3.4.1',
-262 silly resolved        istanbul: '~0.4.2',
-262 silly resolved        mocha: '~2.3.4',
-262 silly resolved        'pre-commit': '~1.1.2',
-262 silly resolved        sinon: '~1.17.2',
-262 silly resolved        'sinon-chai': '~2.8.0' },
-262 silly resolved     repository: { type: 'git', url: 'git@github.com:Moveo/minimize.git' },
-262 silly resolved     keywords: [ 'minify', 'minimize', 'HTML' ],
-262 silly resolved     author: { name: 'Martijn Swaagman' },
-262 silly resolved     license: 'MIT',
-262 silly resolved     readme: '# HTML minifier\n\n[![Version npm][version]](http://browsenpm.org/package/minimize)[![Build Status][build]](https://travis-ci.org/Swaagie/minimize)[![Dependencies][david]](https://david-dm.org/Swaagie/minimize)[![Coverage Status][cover]](https://coveralls.io/r/Swaagie/minimize?branch=master)\n\n[version]: http://img.shields.io/npm/v/minimize.svg?style=flat-square\n[build]: http://img.shields.io/travis/Swaagie/minimize/master.svg?style=flat-square\n[david]: https://img.shields.io/david/Swaagie/minimize.svg?style=flat-square\n[cover]: http://img.shields.io/coveralls/Swaagie/minimize/master.svg?style=flat-square\n\nMinimize is a HTML minifier based on the node-htmlparser. This depedency will\nensure output is solid and correct. Minimize is focussed on HTML5 and will not\nsupport older HTML drafts. It is not worth the effort and the web should move\nforward. Currently, HTML minifier is only usuable server side. Client side\nminification will be added in a future release.\n\n**Minimize does not parse inline PHP or raw template files. Templates are not valid\nHTML and this is outside the scope of the minimize. The _output_ of the\ntemplaters should be parsed and minified.**\n\n## Features\n\n- fast and stable HTML minification (no inline PHP or templates)\n- highly configurable\n- CLI interface usable with stdin and files\n- can distinguish conditional IE comments and/or SSI\n- build on the foundations of [htmlparser2][fb55]\n- pluggable interface that allows to hook into each element\n\n## Usage\n\nTo get the minified content make sure to provide a callback. Optional an options\nobject can be provided. All options are listed below and `false` per default.\n\n```javascript\nvar Minimize = require(\'minimize\')\n  , minimize = new Minimize({\n      empty: true,                      // KEEP empty attributes\n      cdata: true,                      // KEEP CDATA from scripts\n      comments: true,                   // KEEP comments\n      ssi: true,                        // KEEP Server Side Includes\n      conditionals: true,               // KEEP conditional internet explorer comments\n      spare: true,                      // KEEP redundant attributes\n      quotes: true,                     // KEEP arbitrary quotes\n      loose: true,                      // KEEP one whitespace\n      dom: {                            // options of !(htmlparser2)[https://github.com/fb55/htmlparser2]\n            xmlMode: false,                     // Disables the special behavior for script/style tags (false by default)\n            lowerCaseAttributeNames: true,      // call .toLowerCase for each attribute name (true if xmlMode is `false`)\n            lowerCaseTags: true                 // call .toLowerCase for each tag name (true if xmlMode is `false`)\n      }\n    });\n\nminimize.parse(content, function (error, data) {\n  console.log(data);\n});\n```\n\nSupplying a custom instance to do the HTML parsing is possible. I.e. this can\nbe useful if the HTML contains SVG or if you need to specific options to the parser.\n\n```javascript\nvar Minimize = require(\'minimize\')\n  , html = require(\'htmlparser2\')\n  , minimize = new Minimize(\n      new html.Parser(\n        new html.FeedHandler(minimize.emits(\'read\')),\n        { /* options */ }\n      )\n    );\n\nminimize.parse(content, function (error, data) {\n  console.log(data);\n});\n```\n\n## Options\n\n**Empty**\n\nEmpty attributes can usually be removed, by default all are removed, excluded\nHTML5 _data-*_ and microdata attributes. To retain empty elements regardless\nvalue, do:\n\n```javascript\nvar Minimize = require(\'minimize\')\n  , minimize = new Minimize({ empty: true });\n\nminimize.parse(\n  \'<h1 id=""></h1>\',\n  function (error, data) {\n    // data output: <h1 id=""></h1>\n  }\n);\n```\n\n**CDATA**\n\nCDATA is only required for HTML to parse as valid XML. For normal webpages this\nis rarely the case, thus CDATA around javascript can be omitted. By default\nCDATA is removed, if you would like to keep it, pass true:\n\n```javascript\nvar Minimize = require(\'minimize\')\n  , minimize = new Minimize({ cdata: true });\n\nminimize.parse(\n  \'<script type="text/javascript">\\n//<![CDATA[\\n...code...\\n//]]>\\n</script>\',\n  function (error, data) {\n    // data output: <script type=text/javascript>//<![CDATA[\\n...code...\\n//]]></script>\n  }\n);\n```\n\n**Comments**\n\nComments inside HTML are usually beneficial while developing. Hiding your\ncomments in production is sane, safe and will reduce data transfer. If you\nensist on keeping them, fo1r instance to show a nice easter egg, set the option\nto true. Keeping comments will also retain any Server Side Includes or\nconditional IE statements.\n\n```javascript\nvar Minimize = require(\'minimize\')\n  , minimize = new Minimize({ comments: true });\n\nminimize.parse(\n  \'<!-- some HTML comment -->\\n     <div class="slide nodejs">\',\n  function (error, data) {\n    // data output: <!-- some HTML comment --><div class="slide nodejs">\n  }\n);\n```\n\n**Server Side Includes (SSI)**\n\nServer side includes are special set of commands that are support by several\nweb servers. The markup is very similar to regular HTML comments. Minimize can\nbe configured to retain SSI comments.\n\n```javascript\nvar Minimize = require(\'minimize\')\n  , minimize = new Minimize({ ssi: true });\n\nminimize.parse(\n  \'<!--#include virtual="../quote.txt" -->\\n     <div class="slide nodejs">\',\n  function (error, data) {\n    // data output: <!--#include virtual="../quote.txt" --><div class="slide nodejs">\n  }\n);\n```\n\n**Conditionals**\n\nConditional comments only work in IE, and are thus excellently suited to give\nspecial instructions meant only for IE. Minimize can be configured to retain\nthese comments. But since the comments are only working until IE9 (inclusive)\nthe default is to remove the conditionals.\n\n```javascript\nvar Minimize = require(\'minimize\')\n  , minimize = new Minimize({ conditionals: true });\n\nminimize.parse(\n  "<!--[if ie6]>Cover microsofts\' ass<![endif]-->\\n<br>",\n  function (error, data) {\n    // data output: <!--[if ie6]>Cover microsofts\' ass<![endif]-->\\n<br>\n  }\n);\n```\n\n**Spare**\n\nSpare attributes are of type boolean of which the value can be omitted in HTML5.\nTo keep attributes intact for support of older browsers, supply:\n\n```javascript\nvar Minimize = require(\'minimize\')\n  , minimize = new Minimize({ spare: true });\n\nminimize.parse(\n  \'<input type="text" disabled="disabled"></h1>\',\n  function (error, data) {\n    // data output: <input type=text disabled=disabled></h1>\n  }\n);\n```\n\n**Quotes**\n\nQuotes are always added around attributes that have spaces or an equal sign in\ntheir value. But if you require quotes around all attributes, simply pass\nquotes:true, like below.\n\n```javascript\nvar Minimize = require(\'minimize\')\n  , minimize = new Minimize({ quotes: true });\n\nminimize.parse(\n  \'<p class="paragraph" id="title">\\n    Some content\\n  </p>\',\n  function (error, data) {\n    // data output: <p class="paragraph" id="title">Some content</p>\n  }\n);\n```\n\n**Loose**\n\nMinimize will only keep whitespaces in structural elements and remove all other\nredundant whitespaces. This option is useful if you need whitespace to keep the\nflow between text and input elements. Downside: whitespaces or newlines after\nblock level elements will also have one trailing whitespace.\n\n```javascript\nvar Minimize = require(\'minimize\')\n  , minimize = new Minimize({ loose: true });\n\nminimize.parse(\n  \'<h1>title</h1>  <p class="paragraph" id="title">\\n  content\\n  </p>    \',\n  function (error, data) {\n    // data output: <h1>title</h1> <p class="paragraph" id="title"> content </p> \'\n  }\n);\n```\n\n**dom**\n\nMinimize use !(htmlparser2)[https://github.com/fb55/htmlparser2] to parse the dom. The `dom` option permit to customize htmlparser2.\n\n```javascript\nvar Minimize = require(\'minimize\')\n  , minimize = new Minimize({ dom: { lowerCaseAttributeNames: false }});\n\nminimize.parse(\n  \'<a *ngIf="bool">link</a>\',\n  function (error, data) {\n    // data output: <a *ngIf=bool>link</a> \'\n  }\n);\n```\n\n## Plugins\n\nRegister a set of plugins that will be ran on each iterated element. Plugins\nare ran in order, errors will stop the iteration and invoke the completion\ncallback.\n\n```javascript\nvar Minimize = require(\'minimize\')\n  , minimize = new Minimize({ plugins: [{\n      id: \'remove\',\n      element: function element(node, next) {\n        if (node.type === \'text\') delete node.data;\n        next();\n      }\n    }]});\n\nminimize.parse(\n  \'<h1>title</h1>\',\n  function (error, data) {\n    // data output: <h1></h1>\n  }\n);\n```\n\n**Note:** plugins have no control over the flow of minimize. The DOM\nstructure that is parsed by [htmlparser2][fb55] is asynchronously reduced.\nEach element is handed of to the plugin `element` method. Thus, plugins\nhave full control over properties of each `node` as objects always have\nreference in javascript.\n\n#### Available plugins\n\n- [uglifyjs](https://www.npmjs.com/package/minimize-plugin-uglifyjs): minify script content\n- [handlebars](https://www.npmjs.com/package/minimize-handlebars-attribs): allow handlebar template tags\n\n## Tests\n\nTests can be easily run by using either of the following commands. Travis.ci is\nused for continous integration.\n\n```bash\nmake test\nmake test-watch\nnpm test\n```\n\n## Benchmarks\n\n\n## Credits\nMinimize is influenced by the [HTML minifier][kangax] of kangax. This module\nparses the DOM as string as opposes to an object. However, retaining flow is more\ndiffucult if the DOM is parsed sequentially. Minimize is not client-side ready.\nKangax minifier also provides some additional options like linting. Minimize\nwill retain strictly to the business of minifying. Minimize is already used in\nproduction by [Nodejitsu][nodejitsu].\n\n[node-htmlparser][fb55] of fb55 is used to create an object representation\nof the DOM.\n\n[kangax]: https://github.com/kangax/html-minifier/\n[fb55]: https://github.com/fb55/htmlparser2\n[nodejitsu]: http://www.nodejitsu.com/\n',
-262 silly resolved     readmeFilename: 'README.md',
-262 silly resolved     bugs: { url: 'https://github.com/Moveo/minimize/issues' },
-262 silly resolved     _id: 'minimize@1.8.1',
-262 silly resolved     dist: { shasum: '1368c53887dada6066c4ce4ae461da611f0edfd1' },
-262 silly resolved     _from: 'minimize@^1.1.0',
-262 silly resolved     _resolved: 'https://registry.npmjs.org/minimize/-/minimize-1.8.1.tgz' } ]
-263 info install each-async@1.1.1 into /Applications/MAMP/htdocs/jimie/node_modules/grunt-minify-html
-264 info install mkdirp@0.5.1 into /Applications/MAMP/htdocs/jimie/node_modules/grunt-minify-html
-265 info install minimize@1.8.1 into /Applications/MAMP/htdocs/jimie/node_modules/grunt-minify-html
-266 info installOne each-async@1.1.1
-267 info installOne mkdirp@0.5.1
-268 info installOne minimize@1.8.1
-269 info /Applications/MAMP/htdocs/jimie/node_modules/grunt-minify-html/node_modules/each-async unbuild
-270 info /Applications/MAMP/htdocs/jimie/node_modules/grunt-minify-html/node_modules/mkdirp unbuild
-271 info /Applications/MAMP/htdocs/jimie/node_modules/grunt-minify-html/node_modules/minimize unbuild
-272 verbose tar unpack /Users/jimmy/.npm/each-async/1.1.1/package.tgz
-273 silly lockFile b91b79c8-ify-html-node-modules-each-async tar:///Applications/MAMP/htdocs/jimie/node_modules/grunt-minify-html/node_modules/each-async
-274 verbose lock tar:///Applications/MAMP/htdocs/jimie/node_modules/grunt-minify-html/node_modules/each-async /Users/jimmy/.npm/b91b79c8-ify-html-node-modules-each-async.lock
-275 silly lockFile d11f45bb-npm-each-async-1-1-1-package-tgz tar:///Users/jimmy/.npm/each-async/1.1.1/package.tgz
-276 verbose lock tar:///Users/jimmy/.npm/each-async/1.1.1/package.tgz /Users/jimmy/.npm/d11f45bb-npm-each-async-1-1-1-package-tgz.lock
-277 verbose tar unpack /Users/jimmy/.npm/mkdirp/0.5.1/package.tgz
-278 silly lockFile ef440af5--minify-html-node-modules-mkdirp tar:///Applications/MAMP/htdocs/jimie/node_modules/grunt-minify-html/node_modules/mkdirp
-279 verbose lock tar:///Applications/MAMP/htdocs/jimie/node_modules/grunt-minify-html/node_modules/mkdirp /Users/jimmy/.npm/ef440af5--minify-html-node-modules-mkdirp.lock
-280 silly lockFile bc3132f6-mmy-npm-mkdirp-0-5-1-package-tgz tar:///Users/jimmy/.npm/mkdirp/0.5.1/package.tgz
-281 verbose lock tar:///Users/jimmy/.npm/mkdirp/0.5.1/package.tgz /Users/jimmy/.npm/bc3132f6-mmy-npm-mkdirp-0-5-1-package-tgz.lock
-282 verbose tar unpack /Users/jimmy/.npm/minimize/1.8.1/package.tgz
-283 silly lockFile 7d163e35-inify-html-node-modules-minimize tar:///Applications/MAMP/htdocs/jimie/node_modules/grunt-minify-html/node_modules/minimize
-284 verbose lock tar:///Applications/MAMP/htdocs/jimie/node_modules/grunt-minify-html/node_modules/minimize /Users/jimmy/.npm/7d163e35-inify-html-node-modules-minimize.lock
-285 silly lockFile a75daf6f-y-npm-minimize-1-8-1-package-tgz tar:///Users/jimmy/.npm/minimize/1.8.1/package.tgz
-286 verbose lock tar:///Users/jimmy/.npm/minimize/1.8.1/package.tgz /Users/jimmy/.npm/a75daf6f-y-npm-minimize-1-8-1-package-tgz.lock
-287 silly gunzTarPerm modes [ '755', '644' ]
-288 silly gunzTarPerm modes [ '755', '644' ]
-289 silly gunzTarPerm modes [ '755', '644' ]
-290 silly gunzTarPerm extractEntry package.json
-291 silly gunzTarPerm extractEntry .npmignore
-292 silly gunzTarPerm extractEntry README.md
-293 silly gunzTarPerm extractEntry package.json
-294 silly gunzTarPerm extractEntry index.js
-295 silly gunzTarPerm extractEntry readme.md
-296 silly gunzTarPerm extractEntry LICENSE
-297 silly gunzTarPerm extractEntry .travis.yml
-298 silly gunzTarPerm extractEntry package.json
-299 silly gunzTarPerm extractEntry LICENSE
-300 silly gunzTarPerm extractEntry index.js
-301 silly gunzTarPerm extractEntry bin/minimize
-302 silly gunzTarPerm extractEntry .travis.yml
-303 silly gunzTarPerm extractEntry bin/cmd.js
-304 silly gunzTarPerm extractEntry bin/usage.txt
-305 silly gunzTarPerm extractEntry examples/pow.js
-306 silly gunzTarPerm extractEntry lib/helpers.js
-307 silly gunzTarPerm extractEntry lib/list.js
-308 silly gunzTarPerm extractEntry readme.markdown
-309 silly gunzTarPerm extractEntry test/chmod.js
-310 silly gunzTarPerm extractEntry lib/minimize.js
-311 silly gunzTarPerm extractEntry test/helpers-test.js
-312 silly lockFile b91b79c8-ify-html-node-modules-each-async tar:///Applications/MAMP/htdocs/jimie/node_modules/grunt-minify-html/node_modules/each-async
-313 silly lockFile b91b79c8-ify-html-node-modules-each-async tar:///Applications/MAMP/htdocs/jimie/node_modules/grunt-minify-html/node_modules/each-async
-314 silly lockFile d11f45bb-npm-each-async-1-1-1-package-tgz tar:///Users/jimmy/.npm/each-async/1.1.1/package.tgz
-315 silly lockFile d11f45bb-npm-each-async-1-1-1-package-tgz tar:///Users/jimmy/.npm/each-async/1.1.1/package.tgz
-316 silly gunzTarPerm extractEntry test/opts_fs_sync.js
-317 info preinstall each-async@1.1.1
-318 silly gunzTarPerm extractEntry test/list-test.js
-319 silly gunzTarPerm extractEntry test/minimize-test.js
-320 verbose readDependencies using package.json deps
-321 verbose readDependencies using package.json deps
-322 verbose cache add [ 'onetime@^1.0.0', null ]
-323 verbose cache add name=undefined spec="onetime@^1.0.0" args=["onetime@^1.0.0",null]
-324 verbose parsed url { protocol: null,
-324 verbose parsed url   slashes: null,
-324 verbose parsed url   auth: null,
-324 verbose parsed url   host: null,
-324 verbose parsed url   port: null,
-324 verbose parsed url   hostname: null,
-324 verbose parsed url   hash: null,
-324 verbose parsed url   search: null,
-324 verbose parsed url   query: null,
-324 verbose parsed url   pathname: 'onetime@^1.0.0',
-324 verbose parsed url   path: 'onetime@^1.0.0',
-324 verbose parsed url   href: 'onetime@^1.0.0' }
-325 verbose cache add name="onetime" spec="^1.0.0" args=["onetime","^1.0.0"]
-326 verbose parsed url { protocol: null,
-326 verbose parsed url   slashes: null,
-326 verbose parsed url   auth: null,
-326 verbose parsed url   host: null,
-326 verbose parsed url   port: null,
-326 verbose parsed url   hostname: null,
-326 verbose parsed url   hash: null,
-326 verbose parsed url   search: null,
-326 verbose parsed url   query: null,
-326 verbose parsed url   pathname: '^1.0.0',
-326 verbose parsed url   path: '^1.0.0',
-326 verbose parsed url   href: '^1.0.0' }
-327 verbose addNamed [ 'onetime', '^1.0.0' ]
-328 verbose addNamed [ null, '>=1.0.0-0 <2.0.0-0' ]
-329 silly lockFile d730972f-onetime-1-0-0 onetime@^1.0.0
-330 verbose lock onetime@^1.0.0 /Users/jimmy/.npm/d730972f-onetime-1-0-0.lock
-331 verbose cache add [ 'set-immediate-shim@^1.0.0', null ]
-332 verbose cache add name=undefined spec="set-immediate-shim@^1.0.0" args=["set-immediate-shim@^1.0.0",null]
-333 verbose parsed url { protocol: null,
-333 verbose parsed url   slashes: null,
-333 verbose parsed url   auth: null,
-333 verbose parsed url   host: null,
-333 verbose parsed url   port: null,
-333 verbose parsed url   hostname: null,
-333 verbose parsed url   hash: null,
-333 verbose parsed url   search: null,
-333 verbose parsed url   query: null,
-333 verbose parsed url   pathname: 'set-immediate-shim@^1.0.0',
-333 verbose parsed url   path: 'set-immediate-shim@^1.0.0',
-333 verbose parsed url   href: 'set-immediate-shim@^1.0.0' }
-334 verbose cache add name="set-immediate-shim" spec="^1.0.0" args=["set-immediate-shim","^1.0.0"]
-335 verbose parsed url { protocol: null,
-335 verbose parsed url   slashes: null,
-335 verbose parsed url   auth: null,
-335 verbose parsed url   host: null,
-335 verbose parsed url   port: null,
-335 verbose parsed url   hostname: null,
-335 verbose parsed url   hash: null,
-335 verbose parsed url   search: null,
-335 verbose parsed url   query: null,
-335 verbose parsed url   pathname: '^1.0.0',
-335 verbose parsed url   path: '^1.0.0',
-335 verbose parsed url   href: '^1.0.0' }
-336 verbose addNamed [ 'set-immediate-shim', '^1.0.0' ]
-337 verbose addNamed [ null, '>=1.0.0-0 <2.0.0-0' ]
-338 silly lockFile 5a1ef92a-set-immediate-shim-1-0-0 set-immediate-shim@^1.0.0
-339 verbose lock set-immediate-shim@^1.0.0 /Users/jimmy/.npm/5a1ef92a-set-immediate-shim-1-0-0.lock
-340 silly addNameRange { name: 'onetime', range: '>=1.0.0-0 <2.0.0-0', hasData: false }
-341 silly addNameRange { name: 'set-immediate-shim',
-341 silly addNameRange   range: '>=1.0.0-0 <2.0.0-0',
-341 silly addNameRange   hasData: false }
-342 silly gunzTarPerm extractEntry test/perm.js
-343 silly gunzTarPerm extractEntry test/perm_sync.js
-344 silly gunzTarPerm extractEntry test/opts_fs.js
-345 silly gunzTarPerm extractEntry test/rel.js
-346 silly gunzTarPerm extractEntry test/fixtures/plugin.js
-347 silly gunzTarPerm extractEntry test/fixtures/html.json
-348 silly gunzTarPerm extractEntry test/return.js
-349 silly gunzTarPerm extractEntry test/return_sync.js
-350 verbose url raw set-immediate-shim
-351 verbose url resolving [ 'https://registry.npmjs.org/', './set-immediate-shim' ]
-352 verbose url resolved https://registry.npmjs.org/set-immediate-shim
-353 info trying registry request attempt 1 at 23:14:32
-354 verbose etag "8ETDBR4RO9I0RM6UIXJYJGXKS"
-355 http GET https://registry.npmjs.org/set-immediate-shim
-356 verbose url raw onetime
-357 verbose url resolving [ 'https://registry.npmjs.org/', './onetime' ]
-358 verbose url resolved https://registry.npmjs.org/onetime
-359 info trying registry request attempt 1 at 23:14:32
-360 verbose etag "EKGIK8G4OQMZ86JARVGKI2SW6"
-361 http GET https://registry.npmjs.org/onetime
-362 silly gunzTarPerm extractEntry test/root.js
-363 silly gunzTarPerm extractEntry test/sync.js
-364 silly gunzTarPerm extractEntry test/mkdirp.js
-365 silly gunzTarPerm extractEntry test/umask.js
-366 silly gunzTarPerm extractEntry test/clobber.js
-367 silly gunzTarPerm extractEntry test/umask_sync.js
-368 silly gunzTarPerm extractEntry test/race.js
-369 silly lockFile ef440af5--minify-html-node-modules-mkdirp tar:///Applications/MAMP/htdocs/jimie/node_modules/grunt-minify-html/node_modules/mkdirp
-370 silly lockFile ef440af5--minify-html-node-modules-mkdirp tar:///Applications/MAMP/htdocs/jimie/node_modules/grunt-minify-html/node_modules/mkdirp
-371 silly lockFile bc3132f6-mmy-npm-mkdirp-0-5-1-package-tgz tar:///Users/jimmy/.npm/mkdirp/0.5.1/package.tgz
-372 silly lockFile bc3132f6-mmy-npm-mkdirp-0-5-1-package-tgz tar:///Users/jimmy/.npm/mkdirp/0.5.1/package.tgz
-373 silly lockFile 7d163e35-inify-html-node-modules-minimize tar:///Applications/MAMP/htdocs/jimie/node_modules/grunt-minify-html/node_modules/minimize
-374 silly lockFile 7d163e35-inify-html-node-modules-minimize tar:///Applications/MAMP/htdocs/jimie/node_modules/grunt-minify-html/node_modules/minimize
-375 silly lockFile a75daf6f-y-npm-minimize-1-8-1-package-tgz tar:///Users/jimmy/.npm/minimize/1.8.1/package.tgz
-376 silly lockFile a75daf6f-y-npm-minimize-1-8-1-package-tgz tar:///Users/jimmy/.npm/minimize/1.8.1/package.tgz
-377 info preinstall mkdirp@0.5.1
-378 info preinstall minimize@1.8.1
-379 verbose readDependencies using package.json deps
-380 verbose readDependencies using package.json deps
-381 verbose readDependencies using package.json deps
-382 verbose cache add [ 'minimist@0.0.8', null ]
-383 verbose cache add name=undefined spec="minimist@0.0.8" args=["minimist@0.0.8",null]
-384 verbose parsed url { protocol: null,
-384 verbose parsed url   slashes: null,
-384 verbose parsed url   auth: null,
-384 verbose parsed url   host: null,
-384 verbose parsed url   port: null,
-384 verbose parsed url   hostname: null,
-384 verbose parsed url   hash: null,
-384 verbose parsed url   search: null,
-384 verbose parsed url   query: null,
-384 verbose parsed url   pathname: 'minimist@0.0.8',
-384 verbose parsed url   path: 'minimist@0.0.8',
-384 verbose parsed url   href: 'minimist@0.0.8' }
-385 verbose cache add name="minimist" spec="0.0.8" args=["minimist","0.0.8"]
-386 verbose parsed url { protocol: null,
-386 verbose parsed url   slashes: null,
-386 verbose parsed url   auth: null,
-386 verbose parsed url   host: null,
-386 verbose parsed url   port: null,
-386 verbose parsed url   hostname: null,
-386 verbose parsed url   hash: null,
-386 verbose parsed url   search: null,
-386 verbose parsed url   query: null,
-386 verbose parsed url   pathname: '0.0.8',
-386 verbose parsed url   path: '0.0.8',
-386 verbose parsed url   href: '0.0.8' }
-387 verbose addNamed [ 'minimist', '0.0.8' ]
-388 verbose addNamed [ '0.0.8', '0.0.8' ]
-389 silly lockFile 22c6b485-minimist-0-0-8 minimist@0.0.8
-390 verbose lock minimist@0.0.8 /Users/jimmy/.npm/22c6b485-minimist-0-0-8.lock
-391 verbose readDependencies using package.json deps
-392 verbose cache add [ 'argh@~0.1.4', null ]
-393 verbose cache add name=undefined spec="argh@~0.1.4" args=["argh@~0.1.4",null]
-394 verbose parsed url { protocol: null,
-394 verbose parsed url   slashes: null,
-394 verbose parsed url   auth: null,
-394 verbose parsed url   host: null,
-394 verbose parsed url   port: null,
-394 verbose parsed url   hostname: null,
-394 verbose parsed url   hash: null,
-394 verbose parsed url   search: null,
-394 verbose parsed url   query: null,
-394 verbose parsed url   pathname: 'argh@~0.1.4',
-394 verbose parsed url   path: 'argh@~0.1.4',
-394 verbose parsed url   href: 'argh@~0.1.4' }
-395 verbose cache add name="argh" spec="~0.1.4" args=["argh","~0.1.4"]
-396 verbose parsed url { protocol: null,
-396 verbose parsed url   slashes: null,
-396 verbose parsed url   auth: null,
-396 verbose parsed url   host: null,
-396 verbose parsed url   port: null,
-396 verbose parsed url   hostname: null,
-396 verbose parsed url   hash: null,
-396 verbose parsed url   search: null,
-396 verbose parsed url   query: null,
-396 verbose parsed url   pathname: '~0.1.4',
-396 verbose parsed url   path: '~0.1.4',
-396 verbose parsed url   href: '~0.1.4' }
-397 verbose addNamed [ 'argh', '~0.1.4' ]
-398 verbose addNamed [ null, '>=0.1.4-0 <0.2.0-0' ]
-399 silly lockFile 756cafb9-argh-0-1-4 argh@~0.1.4
-400 verbose lock argh@~0.1.4 /Users/jimmy/.npm/756cafb9-argh-0-1-4.lock
-401 verbose cache add [ 'async@~1.5.2', null ]
-402 verbose cache add name=undefined spec="async@~1.5.2" args=["async@~1.5.2",null]
-403 verbose parsed url { protocol: null,
-403 verbose parsed url   slashes: null,
-403 verbose parsed url   auth: null,
-403 verbose parsed url   host: null,
-403 verbose parsed url   port: null,
-403 verbose parsed url   hostname: null,
-403 verbose parsed url   hash: null,
-403 verbose parsed url   search: null,
-403 verbose parsed url   query: null,
-403 verbose parsed url   pathname: 'async@~1.5.2',
-403 verbose parsed url   path: 'async@~1.5.2',
-403 verbose parsed url   href: 'async@~1.5.2' }
-404 verbose cache add name="async" spec="~1.5.2" args=["async","~1.5.2"]
-405 verbose parsed url { protocol: null,
-405 verbose parsed url   slashes: null,
-405 verbose parsed url   auth: null,
-405 verbose parsed url   host: null,
-405 verbose parsed url   port: null,
-405 verbose parsed url   hostname: null,
-405 verbose parsed url   hash: null,
-405 verbose parsed url   search: null,
-405 verbose parsed url   query: null,
-405 verbose parsed url   pathname: '~1.5.2',
-405 verbose parsed url   path: '~1.5.2',
-405 verbose parsed url   href: '~1.5.2' }
-406 verbose addNamed [ 'async', '~1.5.2' ]
-407 verbose addNamed [ null, '>=1.5.2-0 <1.6.0-0' ]
-408 silly lockFile 50cb4f95-async-1-5-2 async@~1.5.2
-409 verbose lock async@~1.5.2 /Users/jimmy/.npm/50cb4f95-async-1-5-2.lock
-410 verbose cache add [ 'diagnostics@~1.0.1', null ]
-411 verbose cache add name=undefined spec="diagnostics@~1.0.1" args=["diagnostics@~1.0.1",null]
-412 verbose parsed url { protocol: null,
-412 verbose parsed url   slashes: null,
-412 verbose parsed url   auth: null,
-412 verbose parsed url   host: null,
-412 verbose parsed url   port: null,
-412 verbose parsed url   hostname: null,
-412 verbose parsed url   hash: null,
-412 verbose parsed url   search: null,
-412 verbose parsed url   query: null,
-412 verbose parsed url   pathname: 'diagnostics@~1.0.1',
-412 verbose parsed url   path: 'diagnostics@~1.0.1',
-412 verbose parsed url   href: 'diagnostics@~1.0.1' }
-413 verbose cache add name="diagnostics" spec="~1.0.1" args=["diagnostics","~1.0.1"]
-414 verbose parsed url { protocol: null,
-414 verbose parsed url   slashes: null,
-414 verbose parsed url   auth: null,
-414 verbose parsed url   host: null,
-414 verbose parsed url   port: null,
-414 verbose parsed url   hostname: null,
-414 verbose parsed url   hash: null,
-414 verbose parsed url   search: null,
-414 verbose parsed url   query: null,
-414 verbose parsed url   pathname: '~1.0.1',
-414 verbose parsed url   path: '~1.0.1',
-414 verbose parsed url   href: '~1.0.1' }
-415 verbose addNamed [ 'diagnostics', '~1.0.1' ]
-416 verbose addNamed [ null, '>=1.0.1-0 <1.1.0-0' ]
-417 silly lockFile ae3ba965-diagnostics-1-0-1 diagnostics@~1.0.1
-418 verbose lock diagnostics@~1.0.1 /Users/jimmy/.npm/ae3ba965-diagnostics-1-0-1.lock
-419 verbose cache add [ 'cli-color@~1.1.0', null ]
-420 verbose cache add name=undefined spec="cli-color@~1.1.0" args=["cli-color@~1.1.0",null]
-421 verbose parsed url { protocol: null,
-421 verbose parsed url   slashes: null,
-421 verbose parsed url   auth: null,
-421 verbose parsed url   host: null,
-421 verbose parsed url   port: null,
-421 verbose parsed url   hostname: null,
-421 verbose parsed url   hash: null,
-421 verbose parsed url   search: null,
-421 verbose parsed url   query: null,
-421 verbose parsed url   pathname: 'cli-color@~1.1.0',
-421 verbose parsed url   path: 'cli-color@~1.1.0',
-421 verbose parsed url   href: 'cli-color@~1.1.0' }
-422 verbose cache add name="cli-color" spec="~1.1.0" args=["cli-color","~1.1.0"]
-423 verbose parsed url { protocol: null,
-423 verbose parsed url   slashes: null,
-423 verbose parsed url   auth: null,
-423 verbose parsed url   host: null,
-423 verbose parsed url   port: null,
-423 verbose parsed url   hostname: null,
-423 verbose parsed url   hash: null,
-423 verbose parsed url   search: null,
-423 verbose parsed url   query: null,
-423 verbose parsed url   pathname: '~1.1.0',
-423 verbose parsed url   path: '~1.1.0',
-423 verbose parsed url   href: '~1.1.0' }
-424 verbose addNamed [ 'cli-color', '~1.1.0' ]
-425 verbose addNamed [ null, '>=1.1.0-0 <1.2.0-0' ]
-426 silly lockFile c2cd802f-cli-color-1-1-0 cli-color@~1.1.0
-427 verbose lock cli-color@~1.1.0 /Users/jimmy/.npm/c2cd802f-cli-color-1-1-0.lock
-428 verbose cache add [ 'emits@~3.0.0', null ]
-429 verbose cache add name=undefined spec="emits@~3.0.0" args=["emits@~3.0.0",null]
-430 verbose parsed url { protocol: null,
-430 verbose parsed url   slashes: null,
-430 verbose parsed url   auth: null,
-430 verbose parsed url   host: null,
-430 verbose parsed url   port: null,
-430 verbose parsed url   hostname: null,
-430 verbose parsed url   hash: null,
-430 verbose parsed url   search: null,
-430 verbose parsed url   query: null,
-430 verbose parsed url   pathname: 'emits@~3.0.0',
-430 verbose parsed url   path: 'emits@~3.0.0',
-430 verbose parsed url   href: 'emits@~3.0.0' }
-431 verbose cache add name="emits" spec="~3.0.0" args=["emits","~3.0.0"]
-432 verbose parsed url { protocol: null,
-432 verbose parsed url   slashes: null,
-432 verbose parsed url   auth: null,
-432 verbose parsed url   host: null,
-432 verbose parsed url   port: null,
-432 verbose parsed url   hostname: null,
-432 verbose parsed url   hash: null,
-432 verbose parsed url   search: null,
-432 verbose parsed url   query: null,
-432 verbose parsed url   pathname: '~3.0.0',
-432 verbose parsed url   path: '~3.0.0',
-432 verbose parsed url   href: '~3.0.0' }
-433 verbose addNamed [ 'emits', '~3.0.0' ]
-434 verbose addNamed [ null, '>=3.0.0-0 <3.1.0-0' ]
-435 silly lockFile f6452b4f-emits-3-0-0 emits@~3.0.0
-436 verbose lock emits@~3.0.0 /Users/jimmy/.npm/f6452b4f-emits-3-0-0.lock
-437 verbose cache add [ 'htmlparser2@~3.9.0', null ]
-438 verbose cache add name=undefined spec="htmlparser2@~3.9.0" args=["htmlparser2@~3.9.0",null]
-439 verbose parsed url { protocol: null,
-439 verbose parsed url   slashes: null,
-439 verbose parsed url   auth: null,
-439 verbose parsed url   host: null,
-439 verbose parsed url   port: null,
-439 verbose parsed url   hostname: null,
-439 verbose parsed url   hash: null,
-439 verbose parsed url   search: null,
-439 verbose parsed url   query: null,
-439 verbose parsed url   pathname: 'htmlparser2@~3.9.0',
-439 verbose parsed url   path: 'htmlparser2@~3.9.0',
-439 verbose parsed url   href: 'htmlparser2@~3.9.0' }
-440 verbose cache add name="htmlparser2" spec="~3.9.0" args=["htmlparser2","~3.9.0"]
-441 verbose parsed url { protocol: null,
-441 verbose parsed url   slashes: null,
-441 verbose parsed url   auth: null,
-441 verbose parsed url   host: null,
-441 verbose parsed url   port: null,
-441 verbose parsed url   hostname: null,
-441 verbose parsed url   hash: null,
-441 verbose parsed url   search: null,
-441 verbose parsed url   query: null,
-441 verbose parsed url   pathname: '~3.9.0',
-441 verbose parsed url   path: '~3.9.0',
-441 verbose parsed url   href: '~3.9.0' }
-442 verbose addNamed [ 'htmlparser2', '~3.9.0' ]
-443 verbose addNamed [ null, '>=3.9.0-0 <3.10.0-0' ]
-444 silly lockFile d541dc73-htmlparser2-3-9-0 htmlparser2@~3.9.0
-445 verbose lock htmlparser2@~3.9.0 /Users/jimmy/.npm/d541dc73-htmlparser2-3-9-0.lock
-446 silly addNameRange { name: 'argh', range: '>=0.1.4-0 <0.2.0-0', hasData: false }
-447 verbose cache add [ 'node-uuid@~1.4.7', null ]
-448 verbose cache add name=undefined spec="node-uuid@~1.4.7" args=["node-uuid@~1.4.7",null]
-449 verbose parsed url { protocol: null,
-449 verbose parsed url   slashes: null,
-449 verbose parsed url   auth: null,
-449 verbose parsed url   host: null,
-449 verbose parsed url   port: null,
-449 verbose parsed url   hostname: null,
-449 verbose parsed url   hash: null,
-449 verbose parsed url   search: null,
-449 verbose parsed url   query: null,
-449 verbose parsed url   pathname: 'node-uuid@~1.4.7',
-449 verbose parsed url   path: 'node-uuid@~1.4.7',
-449 verbose parsed url   href: 'node-uuid@~1.4.7' }
-450 verbose cache add name="node-uuid" spec="~1.4.7" args=["node-uuid","~1.4.7"]
-451 verbose parsed url { protocol: null,
-451 verbose parsed url   slashes: null,
-451 verbose parsed url   auth: null,
-451 verbose parsed url   host: null,
-451 verbose parsed url   port: null,
-451 verbose parsed url   hostname: null,
-451 verbose parsed url   hash: null,
-451 verbose parsed url   search: null,
-451 verbose parsed url   query: null,
-451 verbose parsed url   pathname: '~1.4.7',
-451 verbose parsed url   path: '~1.4.7',
-451 verbose parsed url   href: '~1.4.7' }
-452 verbose addNamed [ 'node-uuid', '~1.4.7' ]
-453 verbose addNamed [ null, '>=1.4.7-0 <1.5.0-0' ]
-454 silly lockFile 1aeb8284-node-uuid-1-4-7 node-uuid@~1.4.7
-455 verbose lock node-uuid@~1.4.7 /Users/jimmy/.npm/1aeb8284-node-uuid-1-4-7.lock
-456 silly addNameRange { name: 'async', range: '>=1.5.2-0 <1.6.0-0', hasData: false }
-457 verbose url raw argh
-458 verbose url resolving [ 'https://registry.npmjs.org/', './argh' ]
-459 verbose url resolved https://registry.npmjs.org/argh
-460 info trying registry request attempt 1 at 23:14:32
-461 http GET https://registry.npmjs.org/argh
-462 silly addNameRange { name: 'diagnostics',
-462 silly addNameRange   range: '>=1.0.1-0 <1.1.0-0',
-462 silly addNameRange   hasData: false }
-463 silly addNameRange { name: 'cli-color',
-463 silly addNameRange   range: '>=1.1.0-0 <1.2.0-0',
-463 silly addNameRange   hasData: false }
-464 silly addNameRange { name: 'emits', range: '>=3.0.0-0 <3.1.0-0', hasData: false }
-465 silly addNameRange { name: 'htmlparser2',
-465 silly addNameRange   range: '>=3.9.0-0 <3.10.0-0',
-465 silly addNameRange   hasData: false }
-466 verbose url raw diagnostics
-467 verbose url resolving [ 'https://registry.npmjs.org/', './diagnostics' ]
-468 verbose url resolved https://registry.npmjs.org/diagnostics
-469 info trying registry request attempt 1 at 23:14:32
-470 http GET https://registry.npmjs.org/diagnostics
-471 silly addNameRange { name: 'node-uuid',
-471 silly addNameRange   range: '>=1.4.7-0 <1.5.0-0',
-471 silly addNameRange   hasData: false }
-472 verbose url raw emits
-473 verbose url resolving [ 'https://registry.npmjs.org/', './emits' ]
-474 verbose url resolved https://registry.npmjs.org/emits
-475 info trying registry request attempt 1 at 23:14:32
-476 http GET https://registry.npmjs.org/emits
-477 verbose url raw minimist/0.0.8
-478 verbose url resolving [ 'https://registry.npmjs.org/', './minimist/0.0.8' ]
-479 verbose url resolved https://registry.npmjs.org/minimist/0.0.8
-480 info trying registry request attempt 1 at 23:14:32
-481 verbose etag "B32IAQDF8VUDQW9K08O8JE4J5"
-482 http GET https://registry.npmjs.org/minimist/0.0.8
-483 verbose url raw node-uuid
-484 verbose url resolving [ 'https://registry.npmjs.org/', './node-uuid' ]
-485 verbose url resolved https://registry.npmjs.org/node-uuid
-486 info trying registry request attempt 1 at 23:14:32
-487 verbose etag "3PBAQ12E1VIB5RSUBJVG6MOHF"
-488 http GET https://registry.npmjs.org/node-uuid
-489 verbose url raw cli-color
-490 verbose url resolving [ 'https://registry.npmjs.org/', './cli-color' ]
-491 verbose url resolved https://registry.npmjs.org/cli-color
-492 info trying registry request attempt 1 at 23:14:32
-493 verbose etag "9PNSOCYV8NYTQSBDOWU9X2C0V"
-494 http GET https://registry.npmjs.org/cli-color
-495 verbose url raw htmlparser2
-496 verbose url resolving [ 'https://registry.npmjs.org/', './htmlparser2' ]
-497 verbose url resolved https://registry.npmjs.org/htmlparser2
-498 info trying registry request attempt 1 at 23:14:32
-499 verbose etag "7V001Y12F7AUX46PS6683JNFP"
-500 http GET https://registry.npmjs.org/htmlparser2
-501 verbose url raw async
-502 verbose url resolving [ 'https://registry.npmjs.org/', './async' ]
-503 verbose url resolved https://registry.npmjs.org/async
-504 info trying registry request attempt 1 at 23:14:32
-505 verbose etag "33HVXRTFJQX71Y0L16VLD7KK9"
-506 http GET https://registry.npmjs.org/async
-507 http 200 https://registry.npmjs.org/argh
-508 silly registry.get cb [ 200,
-508 silly registry.get   { server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
-508 silly registry.get     etag: '"E99144LZYV1SGLRWO72AYHTNQ"',
-508 silly registry.get     'content-type': 'application/json',
-508 silly registry.get     'cache-control': 'max-age=300',
-508 silly registry.get     'content-length': '11721',
-508 silly registry.get     'accept-ranges': 'bytes',
-508 silly registry.get     date: 'Tue, 05 Apr 2016 22:14:29 GMT',
-508 silly registry.get     via: '1.1 varnish',
-508 silly registry.get     age: '299',
-508 silly registry.get     connection: 'keep-alive',
-508 silly registry.get     'x-served-by': 'cache-ams4125-AMS',
-508 silly registry.get     'x-cache': 'HIT',
-508 silly registry.get     'x-cache-hits': '1',
-508 silly registry.get     'x-timer': 'S1459894469.951427,VS0,VE0',
-508 silly registry.get     vary: 'Accept' } ]
-509 http 200 https://registry.npmjs.org/diagnostics
-510 verbose bad json �     �Y�n�F��}i �"wI.i�hZ�@�"OM�����Hm"��.�X	���Y�eɑ�M�Mr/sٙ����k���P^����t�U���<L�@f%SJW�`I�!D����b�R�9Lny�o�����Lzӵ0����.�:(-�um�:�wS����4����x�=�m��n�+��A�k^Ǽ׮GŢ8JW�L["�hc�vP��LX��[器�����M14��7�.走��]����:�נ�[=�Y�/B�3,Y[��飃��ѽ]���y�R����
-510 verbose bad json ��uv�؟m�M���^7F[���H�:<���?��JϞ��Zi�W����{Rp�Uw�߂�q�[��x�<8�F�MXSƱRI�T4-��U)KH'�.�(H��J���[��cX4������a?;��I��E���[�0l��
-510 verbose bad json Q_�G�tz��8 _���yr4��V�cj��W0=�]~*c��;�p�G�7N�|����@��n }~�/#���
-510 verbose bad json �'����DK���@(����΀as4��O0jӃ�S���kp9�Mzc�rͶ�#\�m��]o7�0�`��x�����۽(�l8��	h��xa�*�>a��87���F]�'�F����[|+�8��!��l�*)�����t>]���W{�(�qg��*���ng����1*����}�~>��,U!^r�o��H߬����Y��z�μ�S<M�d��Y^�U�E&��貂a�WY����BJ]�^C?_`2<I�4JW��_>9C�,����k. N�
-510 verbose bad json �C���&g0Mv!����y���Bd��q�/���)�`�o0''\ŉbY��8Ms�RQ�2'����� �E����ǜ3�� 搻1���9�sʚ����1!+�/)sN/g0�7�B-eUf��*�a��%*�Z�B�I�D���~h9Ú@�Z��KŇr桜�D9C�s�������𬿔XI8|$%I&t��4�t^Ҳ���eR���q�����3�� ��ǡ)�Sؼż��a�w��5������=�4��3��Is���9�k�[�8E�D^dEѐ��C�1u��q.��Y�B��$�WOv�`\���Ms��嚳����y����sIT�E^%�*h�/�b�����M]�h�ˬ(�,�e��$c�7��i�$� �����D%���� �ao�%�/�n�7@B��¢�
-510 verbose bad json s�8֣���� g��$�)b^A����g��Q���(v
-510 verbose bad json ��۠W��@z@1�C�h��� }�(Ɖ�r�9�2���Բ\�J楊u�����q�<ܬK(.�q�#�`R�Ib`��:���@d������n� �e���e����
-510 verbose bad json �O�]��}پ���/S3V���^S���U'��|f�@��;����?	�[9���zZ��X��o�h����V�����y�nd�(�1�����] ��	tL}ڷ�^���v��z)آ�m��   ����{o�Vſ�m�B�a���h�EHj7��u��iэ�%Qc�T������;s/%&q�]`��'uy�<��r�wi�g+���6L�]/��;/n}o���n��5���t�r�ͅ���l��x��ܥU�t7�����H�ȴ�Wy�F^���.��&zO��L���|�xZ�E�f\2su)���ty�*6�"z���e>��W�i�8��uۭ��#�oz�H5�7��]�m��@�dy�F�X���w��IY/+�ff�պ�w�:��&n{y�r��Tw���)�.vel�\W$��.����2��%;х�ޜBcdb�*XN�I�/k[��n��"�@z���v�&$o�u�	�d^���F��r-����O=r��%�	(Ѹ)���E�L��p�쿮'��A��������%S����ߓ�&�㬨���(g�;,�\Ƙ��Gg�h�}�J[Β�1`������གྷ�ۀPkc"&�D��3��ap{:��X��<������%)��'��'u6��_w����9>m�R�:��bM����/K�)���H��������غ�jUW��钼�U^q��pp�y�v�T@a[x�v�A��9�"��	1, ok��s�������V=�n0n:&MH�ޓuU�����YU�t���"�Y��~��8��� L&&�:�9�z�H�k�JHeĭ���dA~�����x�m��\�E򊶌F��BY��VT�]���,����cU�8s�qQV3M�`��ђFDے��$^�%2:�ŃXQ��E^SF�р� K�U�s�Jg;鵛sѺȧ�����^�1>�s;�ٍGs�6���W��c a��#�E�R�=�ק��:���<�������oc&h=��,
-510 verbose bad json �c����u�`�_C�]��O�ƫ5v�'JY�=rK�H@m�t�<UP��,ٴ�y��Y�%vv�]�|�14�J���/��+dR�`TRǰ��sIXz>�h>�X��������2��$.�.B
-510 verbose bad json �R�r)��7aN: Y�Ȁ����;?&��
-510 verbose bad json ����/_D�Vtv�����W��^E��_�>���L �q��.ʁ�y�o\�ީ���)&B!%��������pk�߂�B���@�7>��lhf3��;��eKD+�c���J�1Y������FA�ЌH�\&���I\��tU�������X����w*+�$�X��b��}�b��!���,��8�����3¨�5Iȕ�,X�e\*�Y]�Ά��Y5����N��!K�4��hc�{AG����8��|���y*�U��`v�P�D�ݒ9=-�%L�X^�Pj�F��@`l7�d 2��>��T3��\TQz�hj~��y�.�t��h(5��Gؤ�Z��x]��J�8bZ��D)ũ8T%�f ��֪k���|��e\�����������o�6�8�c�Wq �.�g�����y�.��V-Q� ��6�WB���79�˩���yC���������߷���P��D����п�	l�� ���,�������Axm��G�#����>'���9pV���� 2�\㣐��Mb��1��2b\�,!���y�N�P���0����L��1L�*��&
-510 verbose bad json �:�a�@h��[R(���V�� ��W����t���g^��P� J��Dmz�Ꞻv��A;Q�D�9 C<+?��{���J�4� U�}�ky�R"U�C��yOo全�}D�Г���م�)������=��EK�H?�^f�Ts��9{<���GpC� EB��De.I=�+n�H���J���X�걯0��a�VN¿�S؜X"h%�$���O'���em�ns�����yc)����1�P�2�������~�����b�����'{
-510 verbose bad json Q%ߢq��2���m�]-��<���8��!��2X��K�&�M2�a�؇'�:ǒ�CQ=�c��$�7��%ve\0����MB�:��o�U,Qq/�!
-510 verbose bad json �ԗ؝�gܩb�ST���W=g��l�g���V&i���P믭>2�.%�Je���8]����=�<��;!#�4�R��}���ˬ�+��̒�څW�X&Q7�@\5ԉ��)�v���»~p���yݢ��*ϕ�D-�.g6�9@H ��E��6״�{�'�������Pnu~��?Q��t��o���R��{?��5��y���ŷ��W��ՌB����L���~�����zC�����?��׃�Q�?0;|�O�
-510 verbose bad json �������7���z������O�H���C?]r��1��,�٠%G��qwx�]'�C�8Óf	���%����!����{�c�F1.�<Af-9>O{��A�ca�i�?��?���'�b��V�-Am���Y��7<<�.���,y�2�x�+���|���7����k��������������jB|�� T6^�~ǋb������,�����x�%��6)��ox���H����_qU�Ӆ��`���  ?�H4  
-511 error registry error parsing json
-512 silly registry.get cb [ 200,
-512 silly registry.get   { server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
-512 silly registry.get     etag: '"79HE23OEFSL42TZ1CQ4UHK1TE"',
-512 silly registry.get     'content-type': 'application/json',
-512 silly registry.get     'content-encoding': 'gzip',
-512 silly registry.get     'cache-control': 'max-age=300',
-512 silly registry.get     'content-length': '3937',
-512 silly registry.get     'accept-ranges': 'bytes',
-512 silly registry.get     date: 'Tue, 05 Apr 2016 22:14:29 GMT',
-512 silly registry.get     via: '1.1 varnish',
-512 silly registry.get     age: '299',
-512 silly registry.get     connection: 'keep-alive',
-512 silly registry.get     'x-served-by': 'cache-ams4138-AMS',
-512 silly registry.get     'x-cache': 'HIT',
-512 silly registry.get     'x-cache-hits': '1',
-512 silly registry.get     'x-timer': 'S1459894469.954138,VS0,VE0',
-512 silly registry.get     vary: 'Accept' } ]
-513 silly lockFile ae3ba965-diagnostics-1-0-1 diagnostics@~1.0.1
-514 silly lockFile ae3ba965-diagnostics-1-0-1 diagnostics@~1.0.1
-515 verbose about to build /Applications/MAMP/htdocs/jimie/node_modules/grunt-minify-html/node_modules/minimize
-516 info /Applications/MAMP/htdocs/jimie/node_modules/grunt-minify-html/node_modules/minimize unbuild
-517 info preuninstall minimize@1.8.1
-518 info uninstall minimize@1.8.1
-519 verbose false,/Applications/MAMP/htdocs/jimie/node_modules,/Applications/MAMP/htdocs/jimie/node_modules/grunt-minify-html/node_modules unbuild minimize@1.8.1
-520 verbose /Applications/MAMP/htdocs/jimie/node_modules/grunt-minify-html/node_modules/.bin,[object Object] binRoot
-521 info postuninstall minimize@1.8.1
-522 silly addNameRange number 2 { name: 'argh', range: '>=0.1.4-0 <0.2.0-0', hasData: true }
-523 silly addNameRange versions [ 'argh',
-523 silly addNameRange   [ '0.0.0', '0.0.1', '0.1.0', '0.1.1', '0.1.2', '0.1.3', '0.1.4' ] ]
-524 verbose addNamed [ 'argh', '0.1.4' ]
-525 verbose addNamed [ '0.1.4', '0.1.4' ]
-526 silly lockFile 1db4044c-argh-0-1-4 argh@0.1.4
-527 verbose lock argh@0.1.4 /Users/jimmy/.npm/1db4044c-argh-0-1-4.lock
-528 silly lockFile 7e6bc9e1-ry-npmjs-org-argh-argh-0-1-4-tgz https://registry.npmjs.org/argh/-/argh-0.1.4.tgz
-529 verbose lock https://registry.npmjs.org/argh/-/argh-0.1.4.tgz /Users/jimmy/.npm/7e6bc9e1-ry-npmjs-org-argh-argh-0-1-4-tgz.lock
-530 verbose addRemoteTarball [ 'https://registry.npmjs.org/argh/-/argh-0.1.4.tgz',
-530 verbose addRemoteTarball   '3eb4d612973fc6b6dc6ef338f56f759f2ac5c3a6' ]
-531 info retry fetch attempt 1 at 23:14:32
-532 verbose fetch to= /var/folders/cr/cql7gsh9541f__j63w2c9t5c0000gn/T/npm-2255-9Rx2pPdz/1459894472977-0.15410732198506594/tmp.tgz
-533 http GET https://registry.npmjs.org/argh/-/argh-0.1.4.tgz
-534 verbose about to build /Applications/MAMP/htdocs/jimie/node_modules/grunt-minify-html
-535 info /Applications/MAMP/htdocs/jimie/node_modules/grunt-minify-html unbuild
-536 info preuninstall grunt-minify-html@2.0.0
-537 http 200 https://registry.npmjs.org/minimist/0.0.8
-538 silly registry.get cb [ 200,
-538 silly registry.get   { server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
-538 silly registry.get     etag: '"D9L7YVFI26J4ZIZVUBK8YZZ8F"',
-538 silly registry.get     'content-type': 'application/json',
-538 silly registry.get     'cache-control': 'max-age=300',
-538 silly registry.get     'content-length': '1001',
-538 silly registry.get     'accept-ranges': 'bytes',
-538 silly registry.get     date: 'Tue, 05 Apr 2016 22:14:29 GMT',
-538 silly registry.get     via: '1.1 varnish',
-538 silly registry.get     age: '216',
-538 silly registry.get     connection: 'keep-alive',
-538 silly registry.get     'x-served-by': 'cache-ams4125-AMS',
-538 silly registry.get     'x-cache': 'HIT',
-538 silly registry.get     'x-cache-hits': '1',
-538 silly registry.get     'x-timer': 'S1459894469.992651,VS0,VE0',
-538 silly registry.get     vary: 'Accept' } ]
-539 info uninstall grunt-minify-html@2.0.0
-540 verbose true,/Applications/MAMP/htdocs/jimie/node_modules,/Applications/MAMP/htdocs/jimie/node_modules unbuild grunt-minify-html@2.0.0
-541 info postuninstall grunt-minify-html@2.0.0
-542 silly lockFile f7b98dc7--org-minimist-minimist-0-0-8-tgz https://registry.npmjs.org/minimist/-/minimist-0.0.8.tgz
-543 verbose lock https://registry.npmjs.org/minimist/-/minimist-0.0.8.tgz /Users/jimmy/.npm/f7b98dc7--org-minimist-minimist-0-0-8-tgz.lock
-544 verbose addRemoteTarball [ 'https://registry.npmjs.org/minimist/-/minimist-0.0.8.tgz',
-544 verbose addRemoteTarball   '857fcabfc3397d2625b8228262e86aa7a011b05d' ]
-545 info retry fetch attempt 1 at 23:14:32
-546 verbose fetch to= /var/folders/cr/cql7gsh9541f__j63w2c9t5c0000gn/T/npm-2255-9Rx2pPdz/1459894472989-0.7429237721953541/tmp.tgz
-547 http GET https://registry.npmjs.org/minimist/-/minimist-0.0.8.tgz
-548 error SyntaxError: Unexpected token 
-548 error �     �Y�n�F��}i �"wI.i�hZ�@�"OM�����Hm"��.�X	���Y�eɑ�M�Mr/sٙ����k���P^����t�U���<L�@f%SJW�`I�!D����b�R�9Lny�o�����Lzӵ0����.�:(-�um�:�wS����4����x�=�m��n�+��A�k^Ǽ׮GŢ8JW�L["�hc�vP��LX��[器�����M14��7�.走��]����:�נ�[=�Y�/B�3,Y[��飃��ѽ]���y�R����
-548 error ��uv�؟m�M���^7F[���H�:<���?��JϞ��Zi�W����{Rp�Uw�߂�q�[��x�<8�F�MXSƱRI�T4-��U)KH'�.�(H��J���[��cX4������a?;��I��E���[�0l��
-548 error Q_�G�tz��8 _���yr4��V�cj��W0=�]~*c��;�p�G�7N�|����@��n }~�/#���
-548 error �'����DK���@(����΀as4��O0jӃ�S���kp9�Mzc�rͶ�#\�m��]o7�0�`��x�����۽(�l8��	h��xa�*�>a��87���F]�'�F����[|+�8��!��l�*)�����t>]���W{�(�qg��*���ng����1*����}�~>��,U!^r�o��H߬����Y��z�μ�S<M�d��Y^�U�E&��貂a�WY����BJ]�^C?_`2<I�4JW��_>9C�,����k. N�
-548 error �C���&g0Mv!����y���Bd��q�/���)�`�o0''\ŉbY��8Ms�RQ�2'����� �E����ǜ3�� 搻1���9�sʚ����1!+�/)sN/g0�7�B-eUf��*�a��%*�Z�B�I�D���~h9Ú@�Z��KŇr桜�D9C�s�������𬿔XI8|$%I&t��4�t^Ҳ���eR���q�����3�� ��ǡ)�Sؼż��a�w��5������=�4��3��Is���9�k�[�8E�D^dEѐ��C�1u��q.��Y�B��$�WOv�`\���Ms��嚳����y����sIT�E^%�*h�/�b�����M]�h�ˬ(�,�e��$c�7��i�$� �����D%���� �ao�%�/�n�7@B��¢�
-548 error s�8֣���� g��$�)b^A����g��Q���(v
-548 error ��۠W��@z@1�C�h��� }�(Ɖ�r�9�2���Բ\�J楊u�����q�<ܬK(.�q�#�`R�Ib`��:���@d������n� �e���e����
-548 error �O�]��}پ���/S3V���^S���U'��|f�@��;����?	�[9���zZ��X��o�h����V�����y�nd�(�1�����] ��	tL}ڷ�^���v��z)آ�m��   ����{o�Vſ�m�B�a���h�EHj7��u��iэ�%Qc�T������;s/%&q�]`��'uy�<��r�wi�g+���6L�]/��;/n}o���n��5���t�r�ͅ���l��x��ܥU�t7�����H�ȴ�Wy�F^���.��&zO��L���|�xZ�E�f\2su)���ty�*6�"z���e>��W�i�8��uۭ��#�oz�H5�7��]�m��@�dy�F�X���w��IY/+�ff�պ�w�:��&n{y�r��Tw���)�.vel�\W$��.����2��%;х�ޜBcdb�*XN�I�/k[��n��"�@z���v�&$o�u�	�d^���F��r-����O=r��%�	(Ѹ)���E�L��p�쿮'��A��������%S����ߓ�&�㬨���(g�;,�\Ƙ��Gg�h�}�J[Β�1`������གྷ�ۀPkc"&�D��3��ap{:��X��<������%)��'��'u6��_w����9>m�R�:��bM����/K�)���H��������غ�jUW��钼�U^q��pp�y�v�T@a[x�v�A��9�"��	1, ok��s�������V=�n0n:&MH�ޓuU�����YU�t���"�Y��~��8��� L&&�:�9�z�H�k�JHeĭ���dA~�����x�m��\�E򊶌F��BY��VT�]���,����cU�8s�qQV3M�`��ђFDے��$^�%2:�ŃXQ��E^SF�р� K�U�s�Jg;鵛sѺȧ�����^�1>�s;�ٍGs�6���W��c a��#�E�R�=�ק��:���<�������oc&h=��,
-548 error �c����u�`�_C�]��O�ƫ5v�'JY�=rK�H@m�t�<UP��,ٴ�y��Y�%vv�]�|�14�J���/��+dR�`TRǰ��sIXz>�h>�X��������2��$.�.B
-548 error �R�r)��7aN: Y�Ȁ����;?&��
-548 error ����/_D�Vtv�����W��^E��_�>���L �q��.ʁ�y�o\�ީ���)&B!%��������pk�߂�B���@�7>��lhf3��;��eKD+�c���J�1Y������FA�ЌH�\&���I\��tU�������X����w*+�$�X��b��}�b��!���,��8�����3¨�5Iȕ�,X�e\*�Y]�Ά��Y5����N��!K�4��hc�{AG����8��|���y*�U��`v�P�D�ݒ9=-�%L�X^�Pj�F��@`l7�d 2��>��T3��\TQz�hj~��y�.�t��h(5��Gؤ�Z��x]��J�8bZ��D)ũ8T%�f ��֪k���|��e\�����������o�6�8�c�Wq �.�g�����y�.��V-Q� ��6�WB���79�˩���yC���������߷���P��D����п�	l�� ���,�������Axm��G�#����>'���9pV���� 2�\㣐��Mb��1��2b\�,!���y�N�P���0����L��1L�*��&
-548 error �:�a�@h��[R(���V�� ��W����t���g^��P� J��Dmz�Ꞻv��A;Q�D�9 C<+?��{���J�4� U�}�ky�R"U�C��yOo全�}D�Г���م�)������=��EK�H?�^f�Ts��9{<���GpC� EB��De.I=�+n�H���J���X�걯0��a�VN¿�S؜X"h%�$���O'���em�ns�����yc)����1�P�2�������~�����b�����'{
-548 error Q%ߢq��2���m�]-��<���8��!��2X��K�&�M2�a�؇'�:ǒ�CQ=�c��$�7��%ve\0����MB�:��o�U,Qq/�!
-548 error �ԗ؝�gܩb�ST���W=g��l�g���V&i���P믭>2�.%�Je���8]����=�<��;!#�4�R��}���ˬ�+��̒�څW�X&Q7�@\5ԉ��)�v���»~p���yݢ��*ϕ�D-�.g6�9@H ��E��6״�{�'�������Pnu~��?Q��t��o���R��{?��5��y���ŷ��W��ՌB����L���~�����zC�����?��׃�Q�?0;|�O�
-548 error �������7���z������O�H���C?]r��1��,�٠%G��qwx�]'�C�8Óf	���%����!����{�c�F1.�<Af-9>O{��A�ca�i�?��?���'�b��V�-Am���Y��7<<�.���,y�2�x�+���|���7����k��������������jB|�� T6^�~ǋb������,�����x�%��6)��ox���H����_qU�Ӆ��`���  ?�H4  
-548 error     at Object.parse (native)
-548 error     at RegClient.<anonymous> (/usr/local/lib/node_modules/npm/node_modules/npm-registry-client/lib/request.js:238:23)
-548 error     at Request.self.callback (/usr/local/lib/node_modules/npm/node_modules/request/request.js:129:22)
-548 error     at Request.EventEmitter.emit (events.js:98:17)
-548 error     at Request.<anonymous> (/usr/local/lib/node_modules/npm/node_modules/request/request.js:873:14)
-548 error     at Request.EventEmitter.emit (events.js:117:20)
-548 error     at IncomingMessage.<anonymous> (/usr/local/lib/node_modules/npm/node_modules/request/request.js:824:12)
-548 error     at IncomingMessage.EventEmitter.emit (events.js:117:20)
-548 error     at _stream_readable.js:920:16
-548 error     at process._tickCallback (node.js:415:13)
-549 error If you need help, you may report this log at:
-549 error     <http://github.com/isaacs/npm/issues>
-549 error or email it to:
-549 error     <npm-@googlegroups.com>
-550 error System Darwin 15.0.0
-551 error command "node" "/usr/local/bin/npm" "install" "--save-dev" "grunt-minify-html"
-552 error cwd /Applications/MAMP/htdocs/jimie
-553 error node -v v0.10.21
-554 error npm -v 1.3.11
-555 error type unexpected_token
-556 verbose exit [ 1, true ]
