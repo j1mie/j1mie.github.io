@@ -1,0 +1,201 @@
+@import url(https://fonts.googleapis.com/css?family=Roboto:400,100,300,500,700,900);
+@import url(https://fonts.googleapis.com/css?family=Cutive+Mono);
+
+
+body {
+	border-top: 5rem solid #fff799;
+	
+}
+
+a:hover {
+	text-decoration: underline
+}
+
+body,body * {
+	font-family: 'Cutive Mono', monospace;
+}
+
+h1,h2,h3,h4 {
+	font-family: 'Roboto', sans-serif;
+}
+
+
+.row {
+	max-width: 700px;
+	overflow: hidden
+}
+
+
+.wrapper {
+	margin-top: 5rem;
+	padding-bottom: 5rem;
+	border-bottom: 20rem solid #bca791
+}
+
+.hero h1 {
+	font-weight: 700;
+	color: #274bd2;
+	font-size: 2.8em;
+	margin-top: -.5rem;
+	line-height: normal
+}
+
+.hero img {
+	margin-bottom: 2rem
+}
+
+.hero h2 {
+	color: #b8b5b5;
+	font-size: 1.5em;
+	font-weight: 300;
+	letter-spacing: 2px
+}
+
+.hero h3 {
+	font-size: 1.3em;
+	background: #98f4e2;
+	display: inline
+}
+
+.section {
+	padding-top: 2rem
+}
+
+.section h2 {
+	color: #274bd2;
+	font-size: 1.1em;
+	font-weight: 900;
+	margin-top: 0
+}
+
+p a {
+	background: #98f4e2;
+	clear: left;
+	display: inline-block
+}
+
+
+.skills ul {
+	list-style: none;
+	padding-left: 0;
+	margin-left: 0;
+	padding-bottom: 0;
+	margin-bottom: 0
+}
+
+.skills ul li::before {
+	content: "*";
+	color: #98f4e2; position: absolute;
+	left: -10px
+}
+
+
+.work h3 {
+	font-size: 1.1em;
+	color: #000;
+	margin-top: 0;
+	font-weight: 900
+}
+
+.work .outbound {
+	background: #98f4e2;
+	clear: both;
+	white-space: nowrap;
+}
+
+.date {
+	color: #8a8888;
+	font-weight: 200;
+	margin-left: 5px;
+	font-family: 'Roboto', sans-serif;
+
+}
+
+.project {
+	margin-bottom: 3rem
+}
+
+.project img {
+	margin-bottom: 10px
+}
+
+.device {
+	background-image: url('../img/devices.png');
+	background-repeat: no-repeat;
+	display: block;
+	margin-bottom: 1rem
+}
+
+.device.mbp {
+	width: 387px;
+	height: 223px;
+	background-position: 0 0;
+
+}
+
+.device.mbp img {
+	margin-left: 47px;
+    margin-top: 13px;
+
+}
+
+
+.device.ipad {
+	background-position: 0 -249px;
+	width: 193px;
+	height: 285px;
+
+}
+
+.device.ipad img {
+	margin-top: 30px;
+    margin-left: 12px;
+}
+
+.device.iphone {
+	background-position: 0 -553px;
+	width: 119px;
+	height: 247px;
+
+}
+
+.device.iphone img {
+	margin-top: 38px;
+    margin-left: 11px;
+}
+
+
+.action {
+	width: 100%;
+	border: 1px solid #98f4e2;
+	display: block;
+	padding-top: 1rem;
+	padding-bottom: 1rem;
+	text-align: center;
+	color: #274bd2;
+	font-size: 2em;
+	font-weight: 100;
+	font-family: 'Roboto', sans-serif;
+	border-radius: 5px
+
+}
+
+.action:hover {
+	background: #98f4e2
+}
+
+.column+.column:last-child, .columns+.column:last-child, .column+.columns:last-child, .columns+.columns:last-child {
+	float: left
+}
+
+
+@media only screen and (max-width: 40em) { 
+	
+	.skills ul li::before {
+		content: "*";
+		color: #98f4e2; 
+		position: relative;
+		left: -10px
+	}
+	
+} /* max-width 640px, mobile-only styles, use when QAing mobile issues */
