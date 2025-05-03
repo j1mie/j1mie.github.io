@@ -1,5 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,100..900;1,9..144,100..900&display=swap');
 body {
-    font-family: 'Futura', sans-serif;
+    font-family: 'Fraunces', serif;
     margin: 0;
     
     @media (min-width: 600px) {
