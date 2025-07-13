@@ -1,41 +1,16 @@
 @import url('https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,100..900;1,9..144,100..900&display=swap');
 
+/* ===== BASE STYLES ===== */
 body {
     font-family: 'Fraunces', serif;
     margin: 0;
-    
-    @media (min-width: 600px) {
-        min-height: 100vh;
-        display: flex;
-        justify-content: center;
-        align-items: center;    
-    }
-}
-
-main {
-    max-width: 600px;
     display: flex;
-    flex-direction: column-reverse;
-    padding: 0 2rem;
-    margin: auto;
-    gap: 2rem;
-
-    @media (min-width: 600px) {
-        flex-direction: row;
-    }
+    flex-direction: column;
 }
 
 img {
     max-width: 100%;
     height: auto;
-}
-
-aside {
-    flex: 1;
-}
-
-nav {
-    flex: 1;
 }
 
 a {
@@ -44,11 +19,90 @@ a {
     border-bottom: 2px solid;
 }
 
+h2 {
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+}
+
 ul {
     list-style: none;
     padding: 0;
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     gap: 1rem;
     font-size: 16pt;
+}
+
+/* ===== LAYOUT ===== */
+main {
+    max-width: 960px;
+    padding: 0 2rem;
+    margin: auto;
+    gap: 2rem;
+}
+
+nav {
+    flex: 1;
+    padding: 2rem;
+}
+
+aside {
+    flex: 1;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 8rem 0 2rem;
+}
+
+footer img {
+    width: 120px;
+    height: auto;
+}
+
+/* ===== COMICS SECTION ===== */
+section {
+    margin-top: 2rem;
+}
+
+.comics-grid {
+    display: grid;
+    gap: 1.5rem;
+}
+
+.comic-item {
+    text-align: center;
+}
+
+.comic-item a {
+    display: block;
+    border: none;
+    transition: transform 0.2s ease;
+}
+
+.comic-preview {
+    width: 100%;
+    height: auto;
+}
+
+.comic-item h2 {
+    margin: 0.75rem 0 0 0;
+    font-size: 1rem;
+    font-weight: normal;
+}
+
+/* ===== RESPONSIVE ===== */
+@media (min-width: 600px) {
+    body {
+        min-height: 100vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .comics-grid {
+        grid-template-columns: repeat(3, 1fr);
+    }
 }
