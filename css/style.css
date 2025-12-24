@@ -85,6 +85,8 @@ section {
 .comic-preview {
     width: 100%;
     height: auto;
+    aspect-ratio: 13 / 18;
+    object-fit: cover;
 }
 
 .comic-item h2 {
