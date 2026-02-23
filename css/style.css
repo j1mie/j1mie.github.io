@@ -4,7 +4,7 @@
     --font-family-base: 'IBM Plex Mono', monospace;
     --color-text: #111;
     --color-bg: #fff;
-    --container-width: 800px;
+    --container-width: 900px;
     --space-xs: 0.5rem;
     --space-sm: 1rem;
     --space-md: 2rem;
@@ -116,7 +116,7 @@ p {
 
 
 .site-main__illustration {
-    width: 380px;
+    width: 400px;
     align-self: center;
     margin-top: 0.5rem;
 }
