@@ -113,7 +113,7 @@ p {
 }
 
 .home-intro {
-    max-width: 640px;
+    max-width: 540px;
     margin-bottom: var(--space-md);
     font-size: 1.25rem;
     line-height: 1.6;
