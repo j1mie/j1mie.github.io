@@ -128,43 +128,43 @@ p {
     font-size: 16pt;
 }
 
-.comics {
+.art {
     margin-top: var(--space-md);
     margin-bottom: var(--space-lg);
 }
 
-.comics__grid {
+.art__grid {
     display: grid;
     gap: 1.5rem;
 }
 
-.comics__item {
+.art__item {
     text-align: center;
 }
 
-.comics__link {
+.art__link {
     display: block;
     border: none;
     transition: transform 0.2s ease;
 }
 
-.comics__link:hover {
+.art__link:hover {
     text-decoration: underline;
 }
 
-.comics__preview {
+.art__preview {
     width: 100%;
     aspect-ratio: 13 / 18;
     object-fit: cover;
 }
 
-.comics__title {
+.art__title {
     margin-top: 0.75rem;
     font-size: 1rem;
     font-weight: 400;
 }
 
-.comic-page {
+.art-page {
     display: flex;
     flex-direction: column;
 }
@@ -185,7 +185,7 @@ p {
     align-items: center;
 }
 
-.comic-reader {
+.art-reader {
     width: min(100%, 500px);
     margin-inline: auto;
     padding-inline: var(--space-sm);
@@ -195,18 +195,18 @@ p {
     gap: var(--space-sm);
 }
 
-.comic-reader__title {
+.art-reader__title {
     padding-top: var(--space-sm);
     font-size: 1.5rem;
     line-height: 1.2;
 }
 
-.comic-reader__image {
+.art-reader__image {
     width: 100%;
     object-fit: cover;
 }
 
-.comic-nav {
+.art-nav {
     display: flex;
     justify-content: space-between;
     gap: var(--space-sm);
@@ -214,7 +214,7 @@ p {
     padding-top: var(--space-sm);
 }
 
-.comic-nav--single {
+.art-nav--single {
     justify-content: flex-end;
 }
 
@@ -225,7 +225,7 @@ p {
         justify-content: center;
     }
 
-    .comics__grid {
+    .art__grid {
         grid-template-columns: repeat(3, 1fr);
     }
 }
