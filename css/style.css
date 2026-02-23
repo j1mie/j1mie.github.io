@@ -100,7 +100,25 @@ p {
 .site-main {
     width: min(100%, var(--container-width));
     margin-inline: auto;
+    display: flex;
+    flex-direction: column;
+}
+
+@media (min-width: 800px) {
+    .site-main {
+        flex-direction: row;
+    }
+}
+
+.site-main__text {
     padding-inline: var(--space-md);
+}
+
+
+.site-main__illustration {
+    width: 380px;
+    align-self: center;
+    margin-top: 0.5rem;
 }
 
 .site-footer {
@@ -108,12 +126,8 @@ p {
     padding-bottom: var(--space-xl);
 }
 
-.site-footer__illustration {
-    width: 80px;
-}
 
 .home-intro {
-    max-width: 540px;
     margin-bottom: var(--space-md);
     font-size: 1.25rem;
     line-height: 1.6;
