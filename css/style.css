@@ -3,8 +3,8 @@
 :root {
     --font-family-base: 'IBM Plex Mono', monospace;
     --color-text: #111;
-    --color-bg: #fff;
-    --container-width: 900px;
+    --color-bg: #fffcfc;
+    --container-width: 860px;
     --space-xs: 0.5rem;
     --space-sm: 1rem;
     --space-md: 2rem;
@@ -93,7 +93,8 @@ p {
 }
 
 .site-header__title {
-    margin-top: 0.5rem;
+    font-size: 1.5rem;
+    margin-top: var(--space-sm);
 }
 
 .site-main {
@@ -119,6 +120,7 @@ p {
 .site-main__title {
     font-size: 1.5rem;
     margin-bottom: var(--space-sm);
+    margin-top: var(--space-sm);
 }
 
 
@@ -126,6 +128,10 @@ p {
     width: 400px;
     align-self: center;
     margin-top: 0.5rem;
+}
+
+.site--centered .site-main__illustration {
+    mix-blend-mode: multiply;
 }
 
 @media (min-width: 800px) {
@@ -227,11 +233,10 @@ p {
     padding-bottom: var(--space-md);
     display: flex;
     flex-direction: column;
-    gap: var(--space-sm);
+    gap: var(--space-md);
 }
 
 .art-reader__title {
-    padding-top: var(--space-sm);
     font-size: 1.5rem;
     line-height: 1.2;
 }
