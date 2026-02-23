@@ -62,18 +62,19 @@ p {
 .skip-link {
     position: absolute;
     left: var(--space-sm);
-    top: -40px;
+    top: 0;
     z-index: 10;
     padding: var(--space-xs) 0.75rem;
     border: 2px solid currentColor;
     border-radius: 0.25rem;
     background: var(--color-bg);
     color: var(--color-text);
-    transition: top 0.2s ease;
+    transform: translateY(-140%);
+    transition: transform 0.2s ease;
 }
 
 .skip-link:focus-visible {
-    top: var(--space-sm);
+    transform: translateY(var(--space-sm));
 }
 
 .site {
