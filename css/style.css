@@ -172,10 +172,17 @@ p {
 .site-header--compact {
     display: flex;
     width: min(100%, 500px);
+    margin-inline: auto;
     padding-top: var(--space-md);
     padding-bottom: var(--space-sm);
-    padding-left: 1rem;
-    padding-right: 1rem;
+    padding-left: var(--space-sm);
+    padding-right: var(--space-sm);
+}
+
+.breadcrumb {
+    display: flex;
+    gap: 0.4rem;
+    align-items: center;
 }
 
 .comic-reader {
