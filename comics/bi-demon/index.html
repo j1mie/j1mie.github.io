@@ -5,53 +5,14 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Queer demon · jim.ie</title>
     <link rel="stylesheet" href="../../css/style.css">
-    <style>
-        /* Ensure the image covers the whole viewport */
-        html, body {
-            margin: 0;
-            padding: 0;
-            box-sizing: border-box;
-            display: flex;
-            flex-direction: column;
-        }
-        header {
-            display: flex;
-            flex-direction: column;
-            align-items: center;
-            justify-content: center;
-            padding-top: 2rem;
-        }
-        main {
-            display: flex;
-            flex-direction: column;
-            align-items: center;
-            justify-content: center;
-            width: 500px;
-            margin: auto;
-            padding: 0 1rem 2rem;
-            max-width: 100%;
-            box-sizing: border-box;
-            gap: 1rem;
-        }
-        img {
-            display: block;
-            width: 100%;
-            height: auto;
-            object-fit: cover;
-        }
-        h1 {
-            line-height: 0;
-            padding-top: 1rem;
-        }
-    </style>
 </head>
-<body>
-    <header>
+<body class="site comic-page">
+    <header class="site-header site-header--compact container">
         <a href="/">jim.ie</a>
     </header>
-    <main>
-        <h1>Bi demon</h1>
-        <img src="image.jpg" alt="Bi demon">
+    <main class="comic-reader" id="main">
+        <h1 class="comic-reader__title">Bi demon</h1>
+        <img class="comic-reader__image" src="image.jpg" alt="Bi demon">
     </main>
 </body>
 </html>
