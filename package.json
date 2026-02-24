@@ -3,6 +3,6 @@
   "private": true,
   "scripts": {
     "serve": "npx serve .",
-    "compress-images": "npx sharp-cli -i \"art/**/*.{jpg,png}\" -o \"{dir}/{name}-compressed.webp\" resize 1000 -f webp -q 90"
+    "compress-images": "npx sharp-cli -i \"**/*.{jpg,png}\" -o \"{dir}/{name}-compressed.webp\" resize 1000 -f webp -q 90"
   }
 }
