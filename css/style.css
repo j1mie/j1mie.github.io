@@ -32,9 +32,14 @@ img {
 }
 
 a {
-    color: inherit;
+    color: #125E53;
     text-decoration: none;
     border-bottom: 2px solid #a6f0e3;
+}
+
+a:hover {
+    color: #125E53;
+    border-bottom: 2px solid #125E53;
 }
 
 a:focus-visible {
