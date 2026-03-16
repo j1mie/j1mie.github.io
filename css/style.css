@@ -190,12 +190,11 @@ p {
 
 .art__link {
     display: block;
-    border: none;
     transition: transform 0.2s ease;
 }
 
 .art__link:hover {
-    text-decoration: underline;
+    text-decoration: none;
 }
 
 .art__preview {
